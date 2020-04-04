@@ -1,0 +1,19 @@
+/* Entradilla superior con cabecera */
+entradilla_superior_noti_cabecera {
+        margin-top: 20px;
+        border: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 33px;
+    margin: 0px;
+    padding: 0px 62px 36px;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+@media screen and (max-width: 1080px){
+entradilla_superior_noti_cabecera {
+        margin-top: 60px;
+}
+}

@@ -1,0 +1,15 @@
+/* --------------------------------------------------------------------MODULO FESTIVALES 40------------------------------------------------------------------------ */
+.contenido_principal_de_festivales_40_x1 {margin: 0px 0px 30px 0px;}
+.contenido_festivales_40_columna_secundaria_x1{display: table;width: 100%;background-color: #e94633;}
+h.titulo_festivales_40_columna_secundaria {font-size: 21px;padding: 20px 0px 7px 20px;color: #fff;font-family: 'Poppins';font-style: normal; float:left; background: transparent; font-weight:bold;}
+img.imagen_logo_festivales_40_columna_secundaria {float: right;margin-right: 8px;}
+.contenedor_de_lista_de_reproduccion {width: 100%;display: table;border-bottom: 1px solid #505050;background-color: #000;}
+.contenido_indicador_de_posicion_x1 {width: 85px;height: 92px;background-color: #252525;padding: 10px 16px;box-sizing: border-box;position: relative;float: left;}
+h6.numero_de_fecha_festivales_40 {font-size: 22px;color: #fff;font-family: 'Galano Grotesque Light';font-style: normal;padding-left: 2px;text-align: center;font-weight: normal;}
+hr.divisor_festivales_40_posicion {width: 118%;border: 1px solid #3b3b3b;margin: 5px 20px 5px -1px;}
+h2.numero_de_fecha_festivales_40 {color: #fff;font-size: 16px;font-weight: 700;text-transform: uppercase;padding: 0;position: relative;;font-family: 'Galano Grotesque Bold';text-align: center;}
+.contenido_festivales_y_detalle_x1 {width: 75%;height: 92px;float: right;position: relative;}
+.contenedor_principal_de_festivales_40_x1{width: 100%;display: table;}
+article.seccion_detalles_de_album {display: table;float: right;width: 100%;padding: 12px;box-sizing: border-box;}
+h.titular_album {color: #fff;font-family: 'Galano Grotesque Medium';font-size: 13px; background: transparent;}
+p.detalle_album_reproduccion {color: #fff;font-family: 'Galano Grotesque Regular';font-size: 13px;padding-top: 3px;font-weight:bold;}

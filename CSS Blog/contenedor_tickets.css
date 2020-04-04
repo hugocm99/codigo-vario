@@ -1,0 +1,40 @@
+/*--Tipo Tickets--*/
+.contenido_principal_tickets {margin-bottom: 25px;}
+.contenedor_lista_ticktes_x1 {width: 100%;display: table;}
+.contenedor_cabecera_tickets_x1 {
+    width: 100%;
+    display: table;
+    background-color: #fa3f37;}
+.titulo_cabecera_seccion_tickets {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Galano Grotesque Bold';
+    color: #fff;
+    float: left;
+    padding: 20px 50px;
+    text-transform: uppercase;}
+.titulo_cabecera_seccion_tickets a{color:#fff!important;text-decoration:none;font-size: 20px;line-height:30px;}
+.titulo_cabecera_seccion_tickets a:hover{opacity:.7;}
+.contenedor_fecha_de_ticket {
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #ebe9e9;
+	  display: flex;
+    align-items: center;
+    overflow: hidden;}
+.contendo_ticket_1{width:107px;background-color:#252525;display:table;float:left;}
+.indicador_numero_fecha {
+    font-family: 'Galano Grotesque Light';
+    color: #fff;
+    font-size: 34px;
+    line-height: 28px;
+    text-align: center;
+    margin: 20px auto 10px;}
+hr.divisor_fecha_tickets{border:solid 2px #343434;width:50%;margin:auto;}
+.mes_de_ticket{font-size:17px!important;color:#fff;text-align:center;font-family:'Galano Grotesque Light';margin:5px auto 20px!important;text-transform:uppercase;line-height:28px!important;}
+.contenido_tickets_2{position:relative;width:calc(100% - 107px);float:left;}
+.conetnedor_texto_tickets{width:80%;display:table;float:left;padding-left:30px;box-sizing:border-box;}
+.ciudad_de_ticket{font-size:20px;font-family:'Galano Grotesque Bold';line-height:30px;}
+.destino_de_ticket{font-size:20px;font-family:'Galano Grotesque Regular';line-height:30px;}
+.contenido_tickets_2 a {position:absolute;right:30px}
+.icono_rojo_ticket {width:48px;height:48px;}

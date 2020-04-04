@@ -1,0 +1,20 @@
+/* --------------------------------------------------------------------MODULO LISTA 40------------------------------------------------------------------------ */
+.contenido_principal_de_lista_40_x1 {margin: 0px 0px 30px 0px;}
+.contenido_lista_40_columna_secundaria_x1{display: table;width: 100%;background-color: #e94633;}
+h.titulo_lista_40_columna_secundaria {font-size: 21px;padding: 20px 0px 7px 20px;color: #fff;font-family: 'Poppins';font-style: normal; float:left; background: transparent; font-weight:bold;}
+img.imagen_logo_lista_40_columna_secundaria {float: right;margin-right: 8px;}
+.contenedor_de_lista_de_reproduccion {width: 100%;display: table;border-bottom: 1px solid #505050;background-color: #000;}
+.contenido_indicador_de_posicion_x1 {width: 45px;height: 92px;background-color: #252525;padding: 10px 16px;box-sizing: border-box;position: relative;float: left;}
+h6.numero_de_posicion_lista_40 {font-size: 22px;color: #fff;font-family: 'Poppins';font-style: normal;padding-left: 2px;font-weight: normal;}
+hr.divisor_lista_40_posicion {width: 118%;border: 1px solid #3b3b3b;margin: 5px 20px 5px -1px;}
+img.icono_flecha_indicador_posicion {position: absolute;right: 9px;top: 56px;}
+.contenido_lista_y_detalle_x1 {width: 85%;height: 92px;float: right;position: relative;}
+.contenedor_principal_de_lista_40_x1{width: 100%;display: table;}
+img.imagen_album_lista_reproduccion {width: 70px;height: 70px;margin-top: 12px;margin-left: 12px;float: left;}
+img.icono_play_detalle_x2.player_lista_40 {margin-top: 25px;width: 41px;margin-left: -42px;}
+article.seccion_detalles_de_album {display: table;float: right;width: 68%;padding: 12px;box-sizing: border-box;}
+h.titular_album {color: #fff;font-family: 'Poppins';font-size: 13px; background: transparent;}
+p.detalle_album_reproduccion {color: #fff;font-family: 'Poppins';font-size: 13px;padding-top: 3px;font-weight:bold;}
+.boton_contenedor_ver_toda_la_lista{width: 100%;display: table;background-color: #444343;height: 45px;}
+p.ver_toda_la_lista_x1 {width: auto;color: #fff;font-size: 15px;font-family: 'Poppins';font-style: normal;padding: 10px 5px 10px 81px;float: left;}
+img.icono_desplegarble_ver_lista {margin-top: 12px;}

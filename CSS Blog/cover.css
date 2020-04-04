@@ -1,0 +1,130 @@
+/*COVER*/
+/*Cover Title*/
+principal.estirar{background:#f5f5f5;}
+.cobertura-titulo{width:100%;display:flex;}
+.contenido-secundario{min-height:205px;}
+.contenido_portadilla,.contenido-cobertura{display:flex;width:100%;max-width:997px;margin:0 auto;flex-flow:row wrap;}
+.contenido_portadilla{padding:30px 0px;position:relative;overflow:hidden;}
+.titulo{position:relative;left:50px;width:70%;}
+.cobertura-titulo .titulo{font-size:3.437em;font-family:'Galano Grotesque Bold';text-transform:uppercase;letter-spacing:3.5px;}
+.principal,.secundario{width:100%;}
+.principal{padding-top:30px;display:flex;flex-flow:row wrap;justify-content:flex-start;align-content:flex-start;box-sizing:border-box;}
+.principal .imagen{position:relative;display:flex;justify-content:center;align-items:flex-start;}
+.principal .foto{width:100%;height:auto;display:block;}
+.principal .caja-texto{width:450px;height: 367px;position:absolute;margin-left: 53%;box-sizing:border-box;padding:40px;display:flex;justify-content:center;align-items:center;background-color:}
+.principal .texto{font-family:'Galano Grotesque Bold';padding-bottom:20px;text-align:center;box-sizing:border-box;text-transform:uppercase;line-height:30px;font-size:1.375em;min-height:240px;display:flex;justify-content:center;align-items:center;flex-flow:row wrap;}
+.principal .sponsor,.principal .tiempo{font-family:'Galano Grotesque Medium','Galano Grotesque Regular';line-height:20px;font-size:0.562em;position:absolute;bottom:20px;text-transform:uppercase;}
+.principal .sponsor{left:35px}
+.principal .tiempo{right:35px; bottom:34px}
+.secundario{padding-top:30px;padding-left:15px;display:flex;flex-flow:row wrap;}
+.lista{width:100%;display:flex;flex-flow:row wrap;align-content:flex-start;align-items:flex-start;box-sizing:border-box;}
+.lista > .articulo{width:50%;flex-flow:column wrap;padding-right:30px;padding-bottom:30px;box-sizing:border-box;}
+.secundario .lista > .articulo.estirar{margin:0;}
+.lista > .articulo .miniatura img{width:100%;display:flex;align-content:flex-start;align-items:flex-start;}
+.secundario .miniatura{position:relative;display:flex;justify-content:center;align-items:flex-start;width:100%;}
+.secundario .miniatura a{width:100%;}
+.secundario .text-action{font-family:'Galano Grotesque Medium','Galano Grotesque Regular';line-height:21px;font-size:0.687em;letter-spacing:2px;text-transform:uppercase;position:absolute;bottom:-14px;padding:4px 21px;-webkit-transform:skew(-20deg);-moz-transform:skew(-20deg);-ms-transform:skew(-20deg);-o-transform:skew(-20deg);transform:skew(-20deg);z-index:10;}
+.secundario .ayuda-texto {-webkit-transform:skew(20deg);-moz-transform:skew(20deg);-ms-transform:skew(20deg);-o-transform:skew(20deg);transform:skew(20deg);display:table;}
+.secundario .ordenacion{background:#fff;color:#000;padding:40px 12px;text-align:center;text-transform:uppercase;position:relative;flex:1 1 100%;box-sizing:border-box;width:100%;}
+.secundario .ordenacion h2{font-family:'Galano Grotesque Bold';padding-bottom:20px;text-align:center;box-sizing:border-box;text-transform:uppercase;line-height:27px;font-size:1.125em;min-height:130px; margin-bottom:-20px}
+.secundario .ordenacion h2 a{color:#000;}
+.secundario .autor,.secundario .contenido{font-family:'Galano Grotesque Medium','Galano Grotesque Regular';line-height:20px;font-size:9px;position:absolute;bottom:20px;color:#8d8d8d;}
+.secundario .autor{left:20px;text-align:left;width:58%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.secundario .autor a,.secondary .contenido a{color:#8d8d8d;}
+.secundario .contenido{right:20px;}
+.publi-aside{width:312px;position:sticky;top:210px;align-self:flex-start;box-sizing:border-box;}
+/*Cover Especial*/
+.cobertura-especial{background:#000;}
+/*Cover Autor*/
+.cobertura-autor .contenido_portadilla:after{content:"";position:absolute;border-top:90px solid #ed5453;border-left:80px solid transparent;top:0px;right:50px;width:0;height:0;}
+.cobertura-autor .contenido_portadilla:before{content:"";position:absolute;background-color:#fdca2e;padding-bottom:40px;width:60px;height:25px;bottom:0px;right:25px;-webkit-transform:rotate(48deg);transform:rotate(48deg);-webkit-transform-origin:top left;transform-origin:top left;border-radius:0% 25% 0% 0%;}
+.cobertura-autor .image-autor{position:absolute;right:115px;top:0px;}
+.cobertura-autor .title{font-size:0.875em;font-family:'Galano Grotesque Regular';padding-bottom:12px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.coberrtura-autor .author{position:relative;left:50px;font-size:1.875em;font-family:'Galano Grotesque Bold';width:31%;;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;text-transform:uppercase;}
+.cobertura-autor .author-redes{display:flex;align-items:center;position:relative;left:5.5%;}
+.author-redes li:first-child img{padding-left:0px;}
+.cobertura-autor .redes_sociales_zw1{width:28px;height:28px;padding-left:8px;}
+
+@media screen and (min-width: 985px){
+	.cover-show .author-redes li:first-child{width:auto;}
+	}
+@media screen and (max-width: 985px){
+/*COVER*/
+.principal .caja-texto{height:304px}
+.principal .texto{min-height:130px;}
+.secundario .ordenacion h2{min-height:180px; margin-bottom:-50px}
+.secundario .autor{width:40%;}
+/*Cover Autor*/
+.cobertura-autor .author-redes{left:8%;}
+.cover-show .author-redes li:first-child{line-height:12px;}
+}
+
+@media screen and (max-width: 767px){
+/*COVER*/
+.titulo{left:10px;}
+.secundario .ordenacion h2{min-height:130px; margin-bottom:-20px}
+/*Cover Title*/
+.cobertura-titulo .contenido_portadilla{padding:20px 0px;}
+.cobertura-titulo .titulo{font-size:1.875em!important;}
+.principal,.secundario{padding-top:20px;}
+.principal .imagen,.principal .caja-texto{width:100%;}
+.principal .caja-texto{position: relative;padding:40px 28px; margin:0px; height: auto}
+.principal .texto{align-items:flex-start;font-size:1.25em;}
+.principal .sponsor{left:28px}
+.principal .tiempo{right:28px}
+.lista,.publi-aside{margin-left: 30px;width: 100%;}
+.lista > .articulo{width:100%;padding-right:15px;}
+/*Cover Especial*/
+.cover-especial .image-autor{width:208px;height:58px;}
+/*Cover Autor*/
+.cover-autor .container_portadilla:after{content:"";position:absolute;border-top:90px solid #ed5453;border-left:80px solid transparent;top:0px;right:50px;width:0;height:0;}
+.cover-autor .container_portadilla:before{content:"";position:absolute;background-color:#fdca2e;padding-bottom:40px;width:60px;height:25px;bottom:0px;right:25px;-webkit-transform:rotate(48deg);transform:rotate(48deg);-webkit-transform-origin:top left;transform-origin:top left;border-radius:0% 25% 0% 0%;}
+.cover-autor .image-autor{position:absolute;right:115px;top:0px;}
+.cover-autor .title{font-size:0.875em;font-family:'Galano Grotesque Regular';padding-bottom:12px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.cover-autor .author{position:relative;left:50px;font-size:1.875em;font-family:'Galano Grotesque Bold';width:31%;;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;text-transform:uppercase;}
+.cover-autor .author-redes{display:flex;align-items:center;position:relative;left:5.5%;}
+.author-redes li:first-child img{padding-left:0px;}
+.cover-autor .redes_sociales_zw1{width:28px;height:28px;padding-left:8px;}
+
+/*Iconos*/
+.icon-photo,.icon-play,.icon-audio,.icon-article{content:'';width:38px;height:38px;border-radius:100%;cursor:pointer;position:absolute;bottom:20px;left:20px;}
+.icon-photo{background:url(https://cdn.rawgit.com/fanslos40madrid/logosarticulos/dd89deaa/foto.svg) no-repeat center;background-size:100%;}
+.icon-play{background:url(https://cdn.rawgit.com/fanslos40madrid/logosarticulos/dd89deaa/video.svg) no-repeat center;background-size:100%;}
+.icon-audio{background:url(https://cdn.rawgit.com/fanslos40madrid/logosarticulos/dd89deaa/audioo.svg) no-repeat center;background-size:100%;}
+.icon-article{background:url(https://cdn.rawgit.com/fanslos40madrid/logosarticulos/dd89deaa/articulo.svg) no-repeat center;background-size:100%;}
+
+/*PALETTE COLORES*/
+section[class^='cobertura'] a{color:#fff;}
+section[class^=''cobertura'].rojo,.rojo .pagination .slick-prev,.rojo .pagination .slick-next,.rojo .box-text,.rojo .text-action{background:#f7413e;}
+section[class^=''cobertura'].celeste,.cover-show .image-autor.celeste,.celeste .pagination .slick-prev,.celeste .pagination .slick-next,.celeste .box-text,.celeste .text-action{background:#3ec9d9;}
+section[class^=''cover'].azul,.cover-show .imagen-autor.azul,.azul .paginacion .slick-prev,.azul .paginacion .slick-next,.azul .caja-texto,.azul .caja-texto{background-color:#597fbb;}
+section[class^=''cover'].azulon,.cover-show .imagen-autor.azulon,.azulon .pagination .slick-prev,.azulon .pagination .slick-next,.azulon .caja-texto,.azulon .caja-texto{background-color:#455fc2;}
+section[class^=''cobertura'].verde,.cover-show .image-autor.verde,.verde .pagination .slick-prev,.verde .pagination .slick-next,.verde .box-text,.verde .text-action{background:#83bd27;}
+section[class^=''cobertura'].amarillo,.cover-show .image-autor.amarillo,.amarillo .pagination .slick-prev,.amarillo .pagination .slick-next,.amarillo .box-text,.amarillo .text-action{background:#fed430;}
+section[class^=''cobertura'].huevo,.cover-show .image-autor.huevo,.huevo .pagination .slick-prev,.huevo .pagination .slick-next,.huevo .box-text,.huevo .text-action{background:#fda028;}
+section[class^=''cobertura'].naranja,.cover-show .image-autor.naranja,.naranja .pagination .slick-prev,.naranja .pagination .slick-next,.naranja .box-text,.naranja .text-action{background:#ee7d21;}
+section[class^='cover'].blanco,.cover-show .image-autor.blanco,.blanco .pagination .slick-prev,.blanco .pagination .slick-next,.blanco .box-text,.blanco .text-action{background:#fff;}
+section[class^=''cobertura'],.text-action,.box-text a,.sponsor a,.sponsor,.time a,.time{color:#fff;}
+section[class^=''cobertura'].blanco,.blanco .box-text a,.blanco .text-action,.blanco .pagination .slick-prev:before,.blanco .pagination .slick-next:before{color:#000;}
+section[class^='cover'].blanco{border-bottom:solid 1px #000;}
+.blanco .box-text{border:solid 1px #000;}
+.blanco .sponsor,.blanco .sponsor a,.blanco .time{color:#8d8d8d;}
+.sponsor,.sponsor a,.time,.time a{color:#fff;}
+
+
+.cover-show .container_portadilla{padding:20px 55px 50px 55px;box-sizing:border-box;display:block;margin-bottom:10px;}
+.cover-show:before{content:"";position:absolute;border-bottom:50px solid #f5f5f5;border-left:50vw solid transparent;bottom:0px;right:0px;width:0px;height:0px;}
+.cover-show:after{content:"";position:absolute;border-bottom:50px solid #f5f5f5;border-right:50vw solid transparent;bottom:0px;left:0px;width:0px;height:0px;}
+.cover-show .content-image{float:left;}
+.cover-show .image-autor{border-radius:100%;width:187px;height:187px;margin-left:18px;margin-right:45px;background:none!important;}
+.cover-show .box-image{background:#000;width:75px;height:75px;border-radius:100%;display:flex;justify-content:center;align-items:center;position:absolute;top:132px;left:192px;}
+.cover-show .image-logo{/*width:57px;height:28px;*/}
+.cover-show .author,.cover-show .schedule,.cover-show .description,.cover-show .author-redes{float:left;width:calc(100% - 264px);}
+.cover-show .author{font-family:'Galano Grotesque Bold';font-size:1.687em;text-transform:uppercase;padding-top:15px;padding-bottom:10px;letter-spacing:1.5px;}
+.cover-show .schedule{font-family:'Galano Grotesque Bold';font-size:0.812em;text-transform:uppercase;padding-bottom:15px;letter-spacing:1px;}
+.cover-show .description{font-family:'Galano Grotesque Medium','Galano Grotesque Regular';font-size:0.812em;line-height:21px;padding-bottom:15px;border-bottom:1px solid #839fcc;font-weight:lighter;}
+.cover-show .author-redes{padding-top:15px;font-size:0.687em;text-transform:uppercase;font-family:'Galano Grotesque Bold';}
+.cover-show .author-redes li{float:left;}
+.cover-show .author-redes li:first-child{width:150px;padding-top:12px;letter-spacing:0.5px;padding-right:10px;}
+.cover-show .redes_sociales_zw1{width:34px;height:34px;padding-left:15px;}
+.cover-show li:nth-child(2) .redes_sociales_zw1{padding-left:0px;}

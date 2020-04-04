@@ -1,0 +1,164 @@
+<div class="contenido_principal_de_lista_40_x1">
+<script>
+	var vdclip = Array();	
+	function despliegaVideoClip(id) {
+      verVideoEnTelon(vdclip[id], vdclip[id].tagsNombreNormalizado, vdclip[id].titulo, vdclip[id].entradilla);
+    }
+</script>
+<div class="contenedor_principal_de_lista_40_x1">
+<script type="text/javascript" language="Javascript">
+			//<![CDATA[
+			vdclip[1] = Object();
+			vdclip[1].id = '';
+			vdclip[1].id_referencia = '';
+			vdclip[1].urlNoticia = '';
+			vdclip[1].tipo = 'externo';
+			vdclip[1].urls = Array();
+						vdclip[1].urls.push('https://www.youtube.com/watch?v=87gWaABqGYs');
+									vdclip[1].anchoPlayer = 600;
+			vdclip[1].altoPlayer = 350;
+			vdclip[1].poster = url_cache + '';
+			vdclip[1].titulo = 'Ed Sheeran - Galway girl [2017]';
+			vdclip[1].publiActiva = true;
+			vdclip[1].keywords = 'los40,videoclips,lista40';
+			vdclip[1].tagsIds = '';
+			vdclip[1].tagsNombreNormalizado = '';
+			vdclip[1].player = '0';
+			vdclip[1].entradilla = 'El número 1 de la Lista 40. Lleva 14 semanas en lista. ';
+			//]]>;
+			</script>
+<div style="display: none" class="cont_video">
+<div id="contenedor_vdclip_1" class="media"> </div>
+</div>
+<div class="contenido_lista_40_columna_secundaria_x1">
+<h2 class="titulo_lista_40_columna_secundaria">LISTA LOS40</h2>
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/logo_lista_40_x1.png" class="imagen_logo_lista_40_columna_secundaria" />
+</div>				
+<div class="contenedor_de_lista_de_reproduccion">
+<div class="contenido_indicador_de_posicion_x1">
+<h6 class="numero_de_posicion_lista_40">					
+1					
+</h6>
+<hr class="divisor_lista_40_posicion" />					
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/flecha2_posicion_lista_40.png" class="icono_flecha_indicador_posicion" />
+</div>
+<div class="contenido_lista_y_detalle_x1">				  
+<!-- <a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')"></a>-->
+<a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';"></a>
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<img alt="Carátula de: Divide" class="imagen_album_lista_reproduccion" title="Divide" src="https://recursosweb.prisaradio.com/fotos/dest/010002287155.jpg" onerror="javascript:this.src=&#39;http://los40.com/los40/iconos/v1.x/v1.0/varios/no_caratula_p.jpg&#39;" />
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/icono_play_lo_mas_visto.png" class="icono_play_detalle_x2 player_lista_40" />
+</a>
+<article class="seccion_detalles_de_album">					
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<h2 class="titular_album">Ed Sheeran</h2>
+<p class="detalle_album_reproduccion">Galway girl</p>
+</a>
+</article>
+</div>
+</div>	
+<script type="text/javascript" language="Javascript">
+			//<![CDATA[
+			vdclip[2] = Object();
+			vdclip[2].id = '';
+			vdclip[2].id_referencia = '';
+			vdclip[2].urlNoticia = '';
+			vdclip[2].tipo = 'externo';
+			vdclip[2].urls = Array();
+						vdclip[2].urls.push('https://www.youtube.com/watch?v=P9-4xHVc7uk');
+									vdclip[2].anchoPlayer = 600;
+			vdclip[2].altoPlayer = 350;
+			vdclip[2].poster = url_cache + '';
+			vdclip[2].titulo = 'Robin Schulz;James Blunt - Ok [2017]';
+			vdclip[2].publiActiva = true;
+			vdclip[2].keywords = 'los40,videoclips,lista40';
+			vdclip[2].tagsIds = '';
+			vdclip[2].tagsNombreNormalizado = '';
+			vdclip[2].player = '0';
+			vdclip[2].entradilla = 'Posición 2 de la Lista 40. La posición más alta que ha tenido es  el número 1. Lleva 9 semanas en lista. ';
+			//]]>;
+			</script>
+<div style="display: none" class="cont_video">
+<div id="contenedor_vdclip_2" class="media"> </div>
+</div>
+<div class="contenedor_de_lista_de_reproduccion">
+<div class="contenido_indicador_de_posicion_x1">
+<h6 class="numero_de_posicion_lista_40">					
+2					
+</h6>
+<hr class="divisor_lista_40_posicion" />					
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/flecha3_posicion_lista_40.png" class="icono_flecha_indicador_posicion" />
+</div>
+<div class="contenido_lista_y_detalle_x1">				  
+<!-- <a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('2')"></a>-->
+<a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';"></a>
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('2')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<img alt="Carátula de: Uncovered" class="imagen_album_lista_reproduccion" title="Uncovered" src="https://recursosweb.prisaradio.com/fotos/dest/010002373351.jpg" onerror="javascript:this.src=&#39;http://los40.com/los40/iconos/v1.x/v1.0/varios/no_caratula_p.jpg&#39;" />
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/icono_play_lo_mas_visto.png" class="icono_play_detalle_x2 player_lista_40" />
+</a>
+<article class="seccion_detalles_de_album">					
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('2')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<h2 class="titular_album">Robin Schulz & James Blunt</h2>
+<p class="detalle_album_reproduccion">Ok</p>
+</a>
+</article>
+</div>
+</div>	
+<script type="text/javascript" language="Javascript">
+			//<![CDATA[
+			vdclip[3] = Object();
+			vdclip[3].id = '';
+			vdclip[3].id_referencia = '';
+			vdclip[3].urlNoticia = '';
+			vdclip[3].tipo = 'externo';
+			vdclip[3].urls = Array();
+						vdclip[3].urls.push('https://www.youtube.com/watch?v=wnJ6LuUFpMo');
+									vdclip[3].anchoPlayer = 600;
+			vdclip[3].altoPlayer = 350;
+			vdclip[3].poster = url_cache + '';
+			vdclip[3].titulo = 'J Balvin;Willy William - Mi gente [2017]';
+			vdclip[3].publiActiva = true;
+			vdclip[3].keywords = 'los40,videoclips,lista40';
+			vdclip[3].tagsIds = '';
+			vdclip[3].tagsNombreNormalizado = '';
+			vdclip[3].player = '0';
+			vdclip[3].entradilla = 'Posición 3 de la Lista 40. La posición más alta que ha tenido es  el número 1. Lleva 12 semanas en lista. ';
+			//]]>;
+			</script>
+<div style="display: none" class="cont_video">
+<div id="contenedor_vdclip_3" class="media"> </div>
+</div>
+<div class="contenedor_de_lista_de_reproduccion">
+<div class="contenido_indicador_de_posicion_x1">
+<h6 class="numero_de_posicion_lista_40">					
+3					
+</h6>
+<hr class="divisor_lista_40_posicion" />					
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/flecha3_posicion_lista_40.png" class="icono_flecha_indicador_posicion" />
+</div>
+<div class="contenido_lista_y_detalle_x1">				  
+<!-- <a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('3')"></a>-->
+<a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';"></a>
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('3')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<img alt="Carátula de: Mi gente" class="imagen_album_lista_reproduccion" title="Mi gente" src="https://recursosweb.prisaradio.com/fotos/dest/010002364426.jpg" onerror="javascript:this.src=&#39;http://los40.com/los40/iconos/v1.x/v1.0/varios/no_caratula_p.jpg&#39;" />
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/icono_play_lo_mas_visto.png" class="icono_play_detalle_x2 player_lista_40" />
+</a>
+<article class="seccion_detalles_de_album">					
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('3')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<h2 class="titular_album">J Balvin & Willy William</h2>
+<p class="detalle_album_reproduccion">Mi gente</p>
+</a>
+</article>
+</div>
+</div>	
+<div class="boton_contenedor_ver_toda_la_lista">
+<p class="ver_toda_la_lista_x1">Ver toda la lista</p>
+<a href="http://los40.com/lista40/"><img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/desplegable_ver_toda_la_lista.jpg" class="icono_desplegarble_ver_lista" /></a>
+</div>			
+</div>		</div>

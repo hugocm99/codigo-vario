@@ -1,0 +1,15 @@
+.section-portada
+.front-page 
+#breaking-news{padding-top:8px;margin:10px auto}
+#breaking-news{font-family:kelson-regular,sans-serif;font-size:18px;line-height:32px;width:990px;margin:2px auto 10px auto;background:#fff}
+#breaking-news *,
+#breaking-news :after,
+#breaking-news :before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#breaking-news a,S#breaking-news{color:#0b419b;z-index:1}
+#breaking-news .breaking-news-wrapper{position:relative;background:#ffed00;height:35px}
+#breaking-news .breaking-news-wrapper .claim{display:inline-block;text-transform:none;font-weight:700;color:#08224d;background:transparent url(https://rs.20m.es/css4/img/ui/header/breaking-news.png) 5px 6px no-repeat;padding:3px 10px 0 35px;height:35px;margin:0 0 3px 5px;border-right:2px solid #fff;float:left}
+#breaking-news .breaking-news-wrapper .content{padding:3px 0 0;display:inline-block;height:30px;color:#08224d}
+#breaking-news .breaking-news-wrapper .content img{float:left;display:inline-block;margin:-3px 0 0;max-height:35px}
+#breaking-news .breaking-news-wrapper .content .time{font-family:kelson-light,sans-serif;color:#000;margin:0 10px}
+#breaking-news .breaking-news-wrapper .content p{display:inline}
+#breaking-news .breaking-news-wrapper .ui-close{cursor:pointer;position:absolute;right:5px;background:transparent url(https://rs.20m.es/css4/img/ui/header/header-sprite.png) no-repeat scroll 0 -19px;display:inline-block;height:20px;width:20px;margin-top:8px}

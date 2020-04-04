@@ -1,0 +1,22 @@
+/* Banner superior */
+.separator_noti {
+       clear: both;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    background:url(https://cdn.rawgit.com/fanslos40madrid/banner2/b3a03740/New%20Music%20Friday.png);
+}
+
+@media screen and (max-width: 1080px){
+.separator_noti {
+    width:717.275px;
+    height: 129.100px;
+}
+}
+@media screen and (max-width: 1080px){
+.separator_noti {
+    width:374.750px;
+    height: 67.450px;
+}
+}
+

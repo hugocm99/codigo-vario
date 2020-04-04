@@ -1,0 +1,1112 @@
+@import 'http://los40es00.epimg.net/los40/estilos/v1.x/v1.0/font-awesome.css';
+
+@font-face {
+    font-family: '40-font';
+    src:url('http://los40es00.epimg.net/los40/fonts/v1.x/v1.0/font-awesome/40-font/40-font.eot?ra3mkd');
+    src:url('http://los40es00.epimg.net/los40/fonts/v1.x/v1.0/font-awesome/40-font/40-font.eot?ra3mkd#iefix') format('embedded-opentype'),
+        url('/los40/fonts/v1.x/v1.0/font-awesome/40-font/40-font.ttf?ra3mkd') format('truetype'),
+        url('/los40/fonts/v1.x/v1.0/font-awesome/40-font/40-font.woff?ra3mkd') format('woff'),
+        url('/los40/fonts/v1.x/v1.0/font-awesome/40-font/40-font.svg?ra3mkd#40-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'GalanoGrotesque-Regular';
+  src: url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Regular.eot');
+  src: url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Regular.woff2') format('woff2'),
+       url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Regular.woff') format('woff'),
+       url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Regular.ttf') format('truetype'),
+       url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Regular.svg#GalanoGrotesque-Regular') format('svg'),
+       url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalanoGrotesque-Bold';
+  src: url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Bold.eot');
+  src: url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Bold.woff2') format('woff2'),
+       url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Bold.woff') format('woff'),
+       url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Bold.ttf') format('truetype'),
+       url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Bold.svg#GalanoGrotesque-Bold') format('svg'),
+       url('/los40/fonts/v2.x/v1.0/GalanoGrotesque-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('/los40/fonts/v1.x/v1.0/Montserrat/montserrat-regular.eot');
+    src: url('/los40/fonts/v1.x/v1.0/Montserrat/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+         url('/los40/fonts/v1.x/v1.0/Montserrat/montserrat-regular.svg') format('svg'),
+         url('/los40/fonts/v1.x/v1.0/Montserrat/montserrat-regular.woff') format('woff'),
+         url('/los40/fonts/v1.x/v1.0/Montserrat/montserrat-regular.ttf') format('truetype');
+     font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('/los40/fonts/v1.x/v1.0/Montserrat/montserrat-bold.eot');
+    src: url('/los40/fonts/v1.x/v1.0/Montserrat/montserrat-bold.eot?#iefix') format('embedded-opentype'),
+         url('/los40/fonts/v1.x/v1.0/Montserrat/montserrat-bold.svg') format('svg'),
+         url('/los40/fonts/v1.x/v1.0/Montserrat/montserrat-bold.woff') format('woff'),
+         url('/los40/fonts/v1.x/v1.0/Montserrat/montserrat-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('/los40/fonts/v2.x/v1.0/Roboto-Bold.eot?#iefix') format('embedded-opentype');
+  src: url('/los40/fonts/v2.x/v1.0/Roboto-Bold.woff2') format('woff2'),
+       url('/los40/fonts/v2.x/v1.0/Roboto-Bold.woff') format('woff'),
+       url('/los40/fonts/v2.x/v1.0/Roboto-Bold.ttf') format('truetype'),
+       url('/los40/fonts/v2.x/v1.0/Roboto-Bold.svg#Roboto-Bold') format('svg'),
+       url('/los40/fonts/v2.x/v1.0/Roboto-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('/los40/fonts/v2.x/v1.0/Roboto-Regular.eot');
+  src: url('/los40/fonts/v2.x/v1.0/Roboto-Regular.woff2') format('woff2'),
+       url('/los40/fonts/v2.x/v1.0/Roboto-Regular.woff') format('woff'),
+       url('/los40/fonts/v2.x/v1.0/Roboto-Regular.ttf') format('truetype'),
+       url('/los40/fonts/v2.x/v1.0/Roboto-Regular.svg#Roboto-Regular') format('svg'),
+       url('/los40/fonts/v2.x/v1.0/Roboto-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*********** TipografÃ­a Alright ****/
+@font-face {
+  font-family: 'Alright-Regular';
+  src: url('/los40/fonts/v2.x/v1.0/Alright/alrightsans-regular-v3.eot');
+  src: url('/los40/fonts/v2.x/v1.0/Alright/alrightsans-regular-v3.woff2') format('woff2'),
+       url('/los40/fonts/v2.x/v1.0/Alright/alrightsans-regular-v3.woff') format('woff'),
+       url('/los40/fonts/v2.x/v1.0/Alright/alrightsans-regular-v3.ttf') format('truetype'),
+       url('/los40/fonts/v2.x/v1.0/Alright/alrightsans-regular-v3.svg#alrightsans-regular-v3') format('svg'),
+       url('/los40/fonts/v2.x/v1.0/Alright/alrightsans-regular-v3.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/********* TipografÃ­a Killer **********/
+@font-face {
+  font-family: 'Killer-Regular';
+  src: url('/los40/fonts/v2.x/v1.0/Killer/killer-elephant-w00-regular.eot');
+  src: url('/los40/fonts/v2.x/v1.0/Killer/killer-elephant-w00-regular.woff2') format('woff2'),
+       url('/los40/fonts/v2.x/v1.0/Killer/killer-elephant-w00-regular.woff') format('woff'),
+       url('/los40/fonts/v2.x/v1.0/Killer/original-killer-elephant-w00-regular.ttf') format('truetype'),
+       url('/los40/fonts/v2.x/v1.0/Killer/killer-elephant-w00-regular.svg#killer-elephant-w00-regular') format('svg'),
+       url('/los40/fonts/v2.x/v1.0/Killer/killer-elephant-w00-regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* FONTS 40 */
+.fa-podcast:before {
+    content: "\e900";
+}
+
+.fa-40 {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: '40-font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/***************Estilos generales **********************/
+#capa_votar img:hover{cursor:pointer;}
+.los40-music-awards .contenedor_barras .menu-awards-tag UL LI A{font: 16px 'Galano Grotesque Regular', sans-serif;}
+.cnt_nominados A{color:#fff;}
+.cnt_nominados P.enviar{padding-top:50px;}
+.cnt_nominados P.enviar A{
+	background:#baa161;padding:12px; min-width:100px;display:inline-block;color:#fff;font-size:18px;font-family:'Killer-Regular', Arial;color:#000;border-radius:30px;
+	}
+	.cnt_nominados P.enviar A:hover{background:#4c69be;}
+.los40-music-awards .contenedor_principal{width:100%;max-width:100%;}
+.contenedor_barras .seccion.generica {background: transparent url(/especiales/premios-40-principales/2015/img/ganadores.jpg) no-repeat 0 0; height: 135px;}
+.contenedor_barras h1 {display: none;}
+.cnt_nominados p.oculto,
+.oculto{display:none;}
+.cnt_nominados{width:100%;clear:both;padding:60px 0 0px;border-bottom:0;text-align:center;background-color:#000;}
+.cnt_nominados:nth-child(1),
+.cnt_nominados.cnt_votaciones,
+.cnt_nominados.cnt_internacionales,
+.cnt_nominados.content_golden{
+	border-top:4px solid #b9a161;
+	background-image:url(../images/bg_content_izq.png),url(../images/bg_content_der.png);
+	background-repeat:no-repeat;
+	background-position:left top, right top;
+	background-color:#000;
+	}
+
+.cnt_nominados.cnt_votaciones{padding-bottom:70px;}
+.cnt_buttons{display:inline-block;width:100%;padding:70px 0 0;}
+.cnt_nominados.sin-padding-bottom{padding-bottom:0;}
+
+.cnt_nominados h2{font-family:'Killer-Regular', Arial;font-size:38px;color:#fff;font-weight:400;text-transform: uppercase;margin-bottom:50px;}
+.cnt_nominados h2.golden{color:#b9a161;}
+.cnt_nominados h4 A,
+.cnt_nominados h4{font-family:'Killer-Regular', Arial;font-size:16px;color:#fff;font-weight:400;text-transform: uppercase;margin-bottom:0px;letter-spacing:1px;}
+.cnt_nominados h4 + p A{font-family:'Alright-Regular', Arial;font-size:14px;color:#fff;font-weight:400;margin-top:5px;text-transform:none;}
+.cnt_nominados ul{
+    width: 100%;
+	max-width:998px;	
+	display:inline-block;   
+	justify-content: space-between; 
+    padding:35px 0px 60px;   
+    text-align: center;
+	border-bottom:1px solid #1a1a1a;
+	margin:0 auto;
+	}
+	.cnt_nominados.content_golden ul{display:inline-block;}
+	.cnt_nominados.cnt_votaciones UL{border:0;padding-bottom:30px;}
+.cnt_nominados li{
+    display: inline-block;    
+    margin-right:0px;
+    width: 163px;
+    margin-bottom: 0;}
+.cnt_nominados li:last-child{margin:0;}
+.cnt_nominados li.ultima{padding-right:0;}
+.cnt_nominados li a{display:block;}
+.cnt_nominados li A:hover{color:#baa161;}
+.cnt_nominados li img{display:block;width:180px; }
+.cnt_nominados li span{
+	display: block;
+    clear: both;
+    font-family: 'montserratregular', Arial;
+    font-size: 12px;
+    color: #000;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-top: 8px;
+	display:none;
+}
+.cnt_nominados.content_golden LI{margin-bottom:25px;}
+.cnt_nominados.content_golden li:last-child{margin:0;}
+.cnt_nominados p.mensaje{
+    float:none;    
+    width: auto;
+    border:1px solid #f71111;
+    text-align: center;
+    padding: 10px 20px;
+    background-color:#E8B0B0;
+	color:#000;
+	text-transform:none;
+	font-size:15px;
+}
+.cnt_nominados p.mensaje:not(.oculto){
+	display: inline-block;;
+	}
+.contenedor-votaciones .cnt_nominados .cnt_nominados{padding:0;background:transparent;}
+.contenedor-votaciones .cnt_nominados UL{padding:35px 0;}
+.contenedor-votaciones .cnt_nominados UL.botones_registrado{border:0;padding:35px 0 0;display:inline-block;}
+.contenedor-votaciones .cnt_nominados:first-child{/*background:url(../img/bg_votaciones.png) no-repeat center top #00c5d8;background-color:#00c5d8;*/padding: 60px 0 80px;display:inline-block;}
+.cnt_nominados.content_golden li{width:auto;}
+.winner {
+   position: absolute;
+   top: 63px;
+   text-align: center;
+   color: #fff;
+   width: 100%;
+   background-color: #ff1d46;
+   padding: 5px 0;
+   font-size: 12px;
+}
+.header-access p {
+	color:#fff;font-size:15px;font-family: 'Alright-Regular', sans-serif;margin-bottom:10px;
+}
+.header-access p.mensaje{margin-bottom:15px;}
+.header-access p + span {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+}
+.header-access a.btn-gracias {
+    min-width: 276px !important;
+}
+/* MODLAS */
+.modal-favoritos .cnt_mensaje {
+    padding: 4.6em 0 4em 0;
+    width: 370px;
+}
+.modal .cnt_mensaje p.aceptar_bases input {
+    display: inline-block;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+.modal .cnt_mensaje p.aceptar_bases {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 13px !important;
+    text-transform: uppercase;
+}
+.modal .cnt_mensaje p.mensaje {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    width: 282px;
+    margin: 20px auto 0 auto;
+}
+.modal .cnt_mensaje p {
+    font-size: 15px !important;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.subtitle {
+    font-size: 20px;
+    color: #8A8A8A;
+    margin-bottom: 8px;
+    margin: 40px 0 22px 0;
+    border-top: 2px solid #ebebeb;
+    padding-top: 30px;
+}
+
+/* LOADING */
+.loader-content {
+    width: 40px;
+    margin: 60px auto 70px auto;
+    font-size: 24px;
+    color: #555;
+    line-height: 78px;
+}
+.loader {
+    margin: 5px;
+    width: 59px;
+    height: 61px;
+    z-index: 9999;
+    background: url('/especiales/premios-40-principales/2015/img/ajax-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+.social-list .btn .fa {
+    font-size: 19px;
+    float: left;
+    padding: 8px;
+    width: 19px;
+}
+.social-list .btn {
+  -moz-transition: background .25s ease-out;
+  -ms-transition: background .25s ease-out;
+  -webkit-transition: background .25s ease-out;
+  -o-transition: background .25s ease-out;
+  transition: background .25s ease-out;
+}
+.columna_principal .social-aside.datos_redes,
+.columnas_principal_y_secundaria .social-aside.datos_redes {
+  border: none;
+}
+.modal .social-list {
+  border: none;
+  padding: 0;
+  margin: 10px 0;
+  width: 80%;
+}
+.modal .btn {
+    border-radius: 5px;
+    width: 100%;
+}
+.modal .social-aside.datos_redes h2 {
+    font-size: 17px;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+.modal .social-aside header {
+    margin-bottom: 10px;
+}
+
+.social-list .btn .fa-facebook {
+    border-right: 1px solid #105A92;
+}
+.social-list .btn .fa-twitter {
+    border-right: 1px solid #44ABE0;
+}
+.social-list .btn .fa-google-plus {
+    border-right: 1px solid #B93D26;
+}
+.social-list .btn .fa-pinterest-p {
+    border-right: 1px solid #B31616;
+}
+.social-list .btn .fa-tumblr {
+    border-right: 1px solid #405E98;
+}
+.social-list .btn .fa-envelope {
+    border-right: 1px solid #319685;
+}
+
+.social-aside [class*="btn-"]:hover {
+    opacity: 1 !important;
+}
+.social-list .btn-facebook:hover {
+    background-color: #003A5F;
+}
+.social-list .btn-twitter:hover {
+    background-color: #2B7290;
+}
+.social-list .btn-gplus:hover {
+    background-color: #98291A;
+}
+.social-list .btn-pinterest:hover {
+    background-color: #8A1010;
+}
+.social-list .btn-tumblr:hover {
+    background-color: #374967;
+}
+.social-list .btn-email:hover {
+    background-color: #00889C;
+}
+
+
+/* BUTTONS */
+.media-quiz {
+    display: inline-block;
+	position:relative;
+	text-align:center;
+}
+.cnt_nominados .votar,
+.modal .cnt_mensaje p a.btn-premios,
+.cnt_nominados .btn-premios{
+	border-radius:30px;
+	background-color:#baa161;
+    color: #000;
+    display: inline-block;
+	font-family: 'Killer-Regular', Arial;
+    font-size: 18px;
+	padding:15px 30px;
+    text-transform: uppercase;
+    min-width:150px;
+    text-align:left;
+	-moz-transition: background .25s ease-out;
+	-ms-transition: background .25s ease-out;
+	-webkit-transition: background .25s ease-out;
+	-o-transition: background .25s ease-out;
+	transition: background .25s ease-out;
+}
+.btn-premios:hover {
+	background-color:#4c69be;
+	}
+	.btn-premios.btn-action:hover .fa{}
+
+.cnt_nominados .votar{text-align:center;background-color:#baa161;margin-top:50px;position:relative;}
+.cnt_nominados .votar:hover{background-color:#4c69be;}
+.cnt_nominados .votar:after{
+	content:'';position:absolute;right:25px;top:-33px;width:37px;height:37px;background-color:red;background:url(../images/icon_tucan.png) no-repeat center;}
+.modal .cnt_mensaje p a {
+    color: #f6193f;
+    font-family: 'montserratbold', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.modal .cnt_mensaje p a.btn-premios {
+    width: 270px;
+    padding: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.btn-action .action-text {
+    float: left;
+    color: #fff !important;
+    line-height: 35px;
+    padding: 0 10px;
+    font-size: 15px;
+}
+.btn-action .fa {
+	float: left;
+    padding: 0px 10px 0 0px;
+    color: #000;
+    border-right: 0;
+    font-size:19px;
+	}
+
+/* RADIO BUTTONS */
+
+.rad,
+.cnt_nominados .star {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+    /* position: absolute;
+    bottom: 10px;
+    right: 10px;*/
+}
+.rad > input {
+  visibility: hidden;
+  position: absolute;
+}
+
+.rad > i,
+.cnt_nominados .star i {
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s;
+}
+label.rad{
+	/*min-width:90px;
+	padding:48px 20px 30px;
+	 background:url(../images/Votar.png) no-repeat left top;
+    
+	border-radius:15px;*/
+	display:inline-block;
+	position:relative;
+	margin-top:25px;
+	}
+	
+label.rad > input + i{
+	min-width:100px;
+	padding:48px 20px 30px;
+	 background:url(../images/Votar.png) no-repeat left top;
+    display:inline-block;
+	border-radius:15px;
+	}
+	label.rad:hover i,
+	label.rad > input:checked + i{background:url(../images/Votar_hover.png) no-repeat left top;}
+label.rad > input + i:before {
+    content: "votar";
+    color: #000;
+    text-align: center;   
+    font-size:18px;	 
+	text-transform:uppercase;
+	font-weight:400;font-family: 'Killer-Regular', sans-serif;
+	/*position:absolute; bottom:20px;left:50%;*/
+}
+label.rad:hover i,
+label.rad > input + i:hover:before,
+.rad > input:checked + i:before {
+ /* color:#fff;*/
+}
+.cnt_nominados .star i:before {
+  content: "\f005";
+}
+.rad > input + i:before:hover{background-color:#00c5d8;}
+/************* nuevos estilos los40 awards nominados/votaciones *********/
+.container{max-width:1024px;width:100%;margin:0 auto;}
+.content-buttons,
+.contenedor_concurso{display:inline-block;width:100%;float:left;}
+.content-buttons{text-align:center;}
+.caja-concurso.interior{padding:0;margin:0 auto;}
+.caja-concurso.interior .sonrisa{color:#fff; font-size:26px;font-weight:700;}
+.caja-concurso.interior .sonrisa + H2{font-size:18px; font-family:'Alright-Regular', sans-serif;text-transform:none;margin-top:20px;margin-bottom:0;}
+.content-awards{margin:0 auto;width:100%;position:relative;display:inline-block;}
+      .content-awards .awards-top{clear:both;padding:70px 0px 70px;display:inline-block;width:100%;
+	    position:relative;z-index:1;
+		background-color:#131812;
+		background-image:url(../images/Cabecera_PC_izquierdo.png),url(../images/Cabecera_PC_derecho.png);
+		background-position:left bottom, right bottom;
+		background-repeat:no-repeat, no-repeat;
+		
+		}
+		  .content-awards .awards-top .container{text-align:center;}
+		  .logo-position{position:absolute;right:12%;bottom:0;}
+		  
+	 .content-awards .capa-flotante{display:none;}
+	 .contenedor-votaciones .content-awards .capa-flotante{display:none;}
+	 .content-awards .awards-bottom{display:inline-block;width:100%;padding-bottom:0px;}
+	 .content-awards .awards-bottom .cont_nominados{display:flex;}
+	.awards-top .destacado{}
+	.content-awards .awards-top IMG{margin-bottom:0px;}
+	.content-awards .awards-top .intro-concurso{}
+		.awards-top .intro-concurso H1{color:#fda028;font-size:30px;}
+        .intro-concurso p{color:#fff;font-size:18px;line-height:30px;font-family: 'Galano Grotesque Regular', sans-serif;text-align:center;}
+		.awards-top .follow-programs{padding-top:15px;text-align:center;}
+		.intro-concurso h3 {font-size: 14px; line-height: 20px;font-family: 'Alright-Regular', sans-serif;color:#fff;font-weight:400;}
+		.awards-top .follow-programs UL{padding-top:12px;}
+		   .awards-top .follow-programs UL LI{margin:1px 4px;display:inline-block;float:none;}
+		   .awards-top .follow-programs UL LI .btn-whatsap{background-color:#25d366}.awards-top .follow-programs UL LI .btn-whatsap:hover{opacity:0.5;}
+		    .awards-bottom .cnt_nominados li img{width:auto;margin-bottom:10px;}
+			.awards-bottom .cnt_nominados li:first-child img{padding-right:20px;}
+			.awards-bottom H3{color:#b9a161;font-size:24px;font-weight:400;font-family: 'Killer-Regular', sans-serif;text-align:center;}
+ A.btn-whatsapp,
+ #superior_mail,
+  .content-awards .follow-programs ul li div.btn-generico {
+      border-radius: 50%;
+      padding: 0px;
+      color: #fff;
+      font-size:19px;
+      height: 35px;
+      width: 36px;
+      display: block;
+      text-align: center;
+      line-height: 36px;
+      vertical-align: middle;
+	  float:left;
+	  background-color:#baa161;}
+  
+  .modal .cnt_mensaje .follow-programs ul li div.btn-generico {
+         border-radius: 50%;
+         padding: 0px;
+         color: #fff;
+         font-size: 16px;
+         height: 35px;
+         width: 36px;
+         display: block;
+         text-align: center;
+         line-height: 35px;
+         vertical-align: middle;
+		 
+     }
+
+.modal .social-aside.datos_redes h2{color:#b9a161;font-family: 'Killer-Regular', sans-serif;font-weight:400;letter-spacing:1px;}
+
+.modal .cnt_mensaje .follow-programs ul li{padding-left:0;}
+.modal .cnt_mensaje .follow-programs{width:100%;display:inline-block;position:inherit;}
+.modal .cnt_mensaje .follow-programs h3{display:none;}
+.modal .cnt_mensaje .follow-programs UL{width:100%;display:inline-block;text-align:center;border:0;padding:0;}
+.modal .cnt_mensaje .follow-programs ul li{padding-left:4px;float:none;display:inline-block;width:auto;}
+.modal .cnt_mensaje .follow-programs ul li .btn-generico:hover{cursor:pointer;}
+ .header-access,
+ .boton-position{/*position:absolute;top:100px;left:50%;z-index:1;*/}
+ .boton-position P{font-family: 'Alright-Regular', sans-serif;color:#fff;font-size:14px;}
+ .header-access p.mensaje,
+ .boton-position P.mensaje{font-size:12px;font-style:italic;}
+ 
+ .header-access p.aceptar_bases,
+ .boton-position P.aceptar_bases{margin-top:10px;}
+ .boton-position P.aceptar_bases{margin-top:15px;margin-left:15px;}
+ .contenedor_concurso .boton-position label A,
+ .contenedor_concurso .boton-position label{color:#fff;}
+ .header-access input[type="checkbox"],
+ .boton-position input[type="checkbox"]{margin:0px 5px 0 0;}
+ .header-access p.aceptar_bases label A{text-decoration:underline;}
+.contenedor_concurso .boton-position label A,
+.contenedor_concurso .boton-position label{color:#fff;vertical-align:top;}
+
+.awards-top.no-votos .follow-programs{padding-top:118px;}
+.content-awards .awards-top.no-votos .intro-concurso{margin-left:121px;width: 36%;}
+.awards-bottom.no-votos .cnt_nominados{padding-bottom:15px;}
+/* efecto imagen 1 *************/
+.awards-bottom .cnt_nominados li img{
+ width:auto;margin-bottom:15px;
+   opacity: 0.95;
+ -webkit-transition: -webkit-transform 0.35s;
+ transition: transform 0.35s;
+ -webkit-transform-origin: 50% 50%;
+ transform-origin: 50% 50%;}
+.awards-bottom .cnt_nominados li:hover img{-webkit-transform: scale3d(0.95,0.95,1);
+ transform: scale3d(0.95,0.95,1);}
+/*******************************/
+.btn-votar{
+display: inline-block;
+   width: 100%;
+   text-align: center;
+   padding-bottom:10px;
+}
+.cnt_nominados li .btn-votar A{
+ color: #000;
+ text-align: center;
+ padding:10px 20px;
+ font-size: 10px;
+ background: #ffa12d;
+ border-radius: 3px;
+ text-transform: uppercase;
+ font-weight: bold;
+ font-family: 'montserratbold', Arial;
+ display:inline-block;
+ }
+ .btn-votar A:hover{background-color:#1ac4d8;color:#fff;}
+ .cnt_nominados li .btn-votar A:hover{background-color:#1ac4d8;color:#fff;}
+/*** botones:registrado/no registrado ******/
+.cnt_nominados .btn-boton{
+	 color: #000;
+	 text-align: center;
+	 padding:10px 20px;
+	 font-size: 14px;
+	 background: #baa161;
+	 border-radius:30px;
+	 text-transform: uppercase;
+	 font-weight:400;font-family: 'Killer-Regular', sans-serif;
+	 display:inline-block;
+	 float:left;
+	 margin-right:15px;
+	}
+.btn-boton:hover{background:#4c69be;}
+/* capa enviar por correo */
+.capa_enviar_correo .estirar a.boton{display:none;}
+
+.capa_enviar_correo {
+	width:450px;
+    background-color: #f5f5f5;
+    padding:15px 25px;
+    box-sizing: border-box;
+    display: table;
+    border-left: 0;
+    box-shadow: 0 0 5px #ccc;
+    position: absolute;
+    top:-180px;
+    left:0;
+    z-index: 1010;
+    border-radius: 0;
+	}
+.capa_enviar_correo .encabezado {border-bottom: 1px solid #ddd; padding: 0 0 0.5em 0; width: 100%; margin-bottom: 12px;}
+.capa_enviar_correo a.enviar {
+    }
+.capa_enviar_correo a.cerrar {background: transparent url(/iconos/v1.x/v1.0/elementos.png) no-repeat -44px -89px; width: 1.7em; height: 1.6em; display: block; float: right; text-indent: 100%; white-space: nowrap; overflow: hidden;position:absolute;right:0;}
+.capa_enviar_correo a:hover {opacity: 0.5;}
+.columna_principal .capa_enviar_correo p {margin: 1em 0; font-size: 1.4em;}
+.capa_enviar_correo p a {font-weight: bold;}
+.capa_enviar_correo p a:hover {text-decoration: none; opacity: 1;}
+.capa_enviar_correo legend {display: none;}
+.capa_enviar_correo label {display: block; margin-bottom:0;font-family: 'Galano Grotesque Regular';  font-size: 15px;color: #878787;text-align:left;}
+
+.capa_enviar_correo input,
+.capa_enviar_correo textarea {
+	width: 100%;
+    height: 36px;
+    border-radius: 42px;
+    border: 2px solid #e4e4e4;
+    margin: 11px 0px 15px 0px;
+    padding: 20px;
+    box-sizing: border-box;
+	font-size:14px;
+	font-family: 'Galano Grotesque Regular';
+	}
+.capa_enviar_correo textarea {height:7.5em;border-radius:20px;}
+ .capa_enviar_correo p a,
+  .intro-concurso .capa_enviar_correo p {
+      font-family: 'GalanoGrotesque-Bold';
+    font-size: 15px;
+    color: #000;
+	text-align:left;
+	line-height:normal;
+	padding:0;
+}
+.capa_enviar_correo p.aclaracion {margin: 0;  font-family: 'Galano Grotesque Regular';
+    font-size: 15px;
+    color: #878787;text-align:left;}
+.capa_enviar_correo input.enviar {
+	    font-size: 16px;
+    padding: 7px 0px;
+    text-align: center;
+    background-color: #006cb5;
+    /* display: block; */
+    width: 100%;
+    border: none;
+    border-radius: 53px;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom:10px;
+    font-family: 'Galano Grotesque Bold';
+    cursor: pointer;
+	}
+.capa_enviar_correo input.enviar:hover {cursor: pointer; color: #fff; background-color: #F6193F;}
+.intro-concurso .capa_enviar_correo .ok,
+.intro-concurso .capa_enviar_correo .error {background-color: #F6193F; background-repeat: no-repeat; color: #fff; line-height:normal; margin:10px; color: #fff; font-size:15px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;font-family: 'Galano Grotesque Bold';}
+.intro-concurso .capa_enviar_correo .ok {background-image: url(/iconos/v1.x/v1.0/varios/tic_blanco.png); background-position: 1.2em 1.2em; padding: 1em 1em 1em 3em;}
+.intro-concurso .capa_enviar_correo .error {background-image: url(/iconos/v1.x/v1.0/varios/error.png); background-position: 0.8em 0.8em; padding: 0.8em 1em 0.8em 3.5em; line-height: 1.1em;}
+.disposicion_vertical .capa_enviar_correo {top: 7.4em; left: -1.5em;}
+
+
+.modal .cnt_mensaje .follow-programs ul li A{color:#fff}
+.cnt_nominados p.mensaje{margin-top:10px;}
+.content-awards .follow-programs ul li div.btn-generico:hover{cursor:pointer;}
+.content-awards .follow-programs ul li A,
+.content-awards .follow-programs ul li div.btn-generico{transition: all .2s ease-in-out;}
+   .content-awards .follow-programs ul li A:hover,
+   .content-awards .follow-programs ul li div:hover{cursor:pointer;transform: scale(1.1);}
+   .content-awards .follow-programs ul li div .fa{font-size:16px;}
+
+/******** artistas confirmados *******************************/
+.cnt_confirmados .destacado .intro-concurso,
+.cnt_confirmados .destacado{max-width:450px;float:left;}
+.button-comprar-entrada{display:inline-block;padding:30px 0 0 90px}
+.button-comprar-entrada A{
+	border-radius:30px;
+	background-color:#fba419;
+    color: #fff;
+    display: inline-block;
+	font-family: 'GalanoGrotesque-Bold', sans-serif;
+    font-size: 18px;
+	padding:15px 30px;
+    text-transform: uppercase;
+    min-width:160px;
+    text-align:left;
+	-moz-transition: background .25s ease-out;
+	-ms-transition: background .25s ease-out;
+	-webkit-transition: background .25s ease-out;
+	-o-transition: background .25s ease-out;
+	transition: background .25s ease-out;
+}
+.button-comprar-entrada A:hover{
+	background-color:#ffd602;
+	}
+.cnt_confirmados .cnt_nominados{padding:60px 0 50px;}
+.cnt_confirmados .cnt_nominados UL{padding:0;}
+.cnt_confirmados .cnt_nominados:nth-child(1){background-color:#557ebf;padding:70px 0 50px;}
+.cnt_confirmados .cnt_nominados:nth-child(2){background-color:#e94634;}
+.cnt_confirmados .cnt_nominados:nth-child(3){background-color:#faa41a;}
+.cnt_confirmados .cnt_nominados:nth-child(4){background-color:#00c5d8;}
+.cnt_confirmados .cnt_nominados:nth-child(5){background-color:#557ebf;}
+.cnt_confirmados .cnt_nominados:nth-child(6){background-color:#e94634;}
+.cnt_confirmados .awards-bottom .cnt_nominados li{width:265px;}
+/**********************VENTANA MODAL ******************/
+.modal{position:fixed;width:100%;height:100%;background:url(/iconos/v1.x/v1.0/back_aviso_menores.png) 0 0 repeat;top: 0;left: 0;z-index: 10000;display:none; background-color: rgba(0,0,0,0.5);}
+.modal .cnt_mensaje {
+  background: #fff;
+  text-align: center;
+  padding: 3em 0 3em 0;
+  max-width: 55em;
+  width:90%;
+  margin: 13em auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.modal .cnt_mensaje p {
+  font-size: 17px !important;
+  font-weight: normal !important;
+  padding: 0;
+  margin: 4px 10px 9px 10px;
+  color: #333;
+  font-family:'Alright-Regular', Arial;
+}
+.modal .cnt_mensaje p a {
+  color: #f6193f;
+  font-weight: bold;
+}
+.modal .cnt_mensaje p a:hover {
+  color: #555;
+}
+.controls-access {
+    float: left;
+    text-align: left;
+}
+.modal .cnt_mensaje a.ultimo{float:right;background:#97c343;}
+.controls {
+  width: 285px;
+  margin: 5px auto 0 auto;
+  display: inline-block;
+}
+
+
+/* Header */
+.modal .social-aside header {
+  display: inline-block;
+  width: 100%;
+}
+.modal .social-aside footer {
+    margin: 0 0 0 13px;
+    display: inline-block;
+}
+/* List + Buttons */
+.modal .social-list {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 12px;
+}
+.modal .social-list {
+  margin: 0px 43px 26px;
+  width: auto;
+  border-bottom: 1px solid #ddd;
+  padding: 0px 0px 27px;
+}
+.modal .social-list li {
+  float: left;
+  width: 39.5%;
+  margin: 7px 0;
+  padding: 0 10px;
+  line-height: 12px;
+}
+.modal .social-list li,.modal .social-list li:hover {
+	width: 30%;
+	padding: 0 1.5%;
+	border: none;
+}
+
+.modal span.action {
+line-height: 36px;
+padding: 0 2px;
+width: 77px;
+display: inline-block;
+text-align: center;
+font-size: 12px;
+font-family: 'montserratbold', Arial, Helvetica, sans-serif;
+}
+
+.modal .btn {
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.modal .btn [class*="icon-"] {
+  padding: 5px;
+  float: left;
+}
+.modal .btn [class*="icon-"] {
+  padding: 8px 5px;
+}
+.modal .btn-instagram {
+  background-color: #a38766;
+}
+.modal .sprite-redes {
+  background-image: url(/iconos/v1.x/v1.0/redes/sprite-redes.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.modal .sprite-delete {
+  background-image: url(/iconos/v1.x/v1.0/redes/sprite-delete.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.modal .icon-delete {
+    position: absolute;
+    right: -19px;
+    top: -17px;
+    background-position: 0px 0px;
+    width: 40px;
+    height: 40px;
+}
+.modal .icon-title {
+  background-position: -6px -5px;
+  width: 100%;
+  height: 59px;
+}
+.modal .icon-influence {
+  background-position: -5px -119px;
+  width: 95px;
+  height: 59px;
+  float: left;
+}
+.modal .number-influence {
+  float: left;
+}
+.modal .icon-facebook {
+  background-position: -95px -70px;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid #3088c1;
+}
+.modal .icon-twitter {
+  background-position: -123px -70px;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid #84d1f2;
+}
+.modal .icon-youtube {
+  background-position: -154px -70px;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid #c34148;
+}
+.modal .icon-instagram {
+  background-position: -187px -70px;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid #b49e83;
+}
+.modal .icon-gplus {
+  background-position: -217px -72px;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid #e36b5b;
+}
+.modal .icon-pinterest {
+  background-position: -245px -73px;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid #d54d52;
+}
+
+/* Sobreescribe */
+.modal .social-aside.datos_redes {
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 0;
+    margin-top: 2em;
+}
+.modal .social-aside.datos_redes h2 {
+    font-size: 20px;
+    margin: 0 0 26px 0;
+    font-weight: lighter;
+	line-height:25px;
+	padding:0 50px;
+}
+
+.modal .social-aside.datos_redes .social-list li a {
+    font-family: 'montserratbold', Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.modal .social-aside.datos_redes li a {
+  color: #444;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'montserratbold', Arial, Helvetica, sans-serif;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  text-indent: 0px;
+}
+
+.modal .social-aside.datos_redes .social-list li a:hover {
+    opacity: 0.7;
+}
+/****************** MENU ANCLADO ****************/
+	.menu-anclado{position:fixed;top:39%;right:40px;z-index:1000;}
+	.menu-anclado LI{padding-bottom:10px;position:relative;}
+	.menu-anclado LI{}
+	.menu-anclado LI span{display:block;}
+	.menu-anclado LI A{color:#fff;text-transform:uppercase;font-family: 'Galano Grotesque Regular', sans-serif;font-size:12px;display:inline-block;}
+	.menu-anclado LI A:hover,
+	.menu-anclado LI A.active{font-family: 'GalanoGrotesque-Bold', sans-serif;color:#baa161;}
+@media (min-width:1191px){
+	.menu-anclado LI A:before{content:'';width:18px;height:2px;background:#fff;margin-bottom:5px;display:inline-block;}
+	.menu-anclado LI A.active:before{background-color:#baa161;}
+	.menu-anclado LI A.active{color:#baa161;}
+	}
+@media (max-width: 1190px){
+	.content-awards .awards-top{text-align:center;padding:50px 0px 0px;background-size:60%;}	
+	.logo-position{position:static;right:0;bottom:0;}
+
+	.menu-anclado{width:100%;right:0;background:#000;opacity:0.8;padding:15px 0;text-align:center;top:70%;}
+	.menu-anclado LI{display:inline-block;padding:0px 5px;text-align:left;vertical-align:top;}
+	.menu-anclado LI A{font-size:11px;}
+	.menu-anclado LI A span{font-size:15px;}
+	.menu-anclado LI A.active{}	
+	.los40-music-awards .contenedor_barras .menu-awards-tag UL LI A{padding:15px 5px;font:0.687em 'Galano Grotesque Regular', sans-serif;}
+
+	.awards-top .destacado{max-width:340px;text-align:center;float:none;margin:0 auto;}	
+	.intro-concurso p{font-size:17px;line-height:26px;padding:0 8px;}
+	.awards-top .destacado IMG{max-width:100%;width:100%;}
+	.awards-top .destacado .logo-position IMG{width:auto;}
+	.caja-concurso.interior{}
+	.header-access,
+	.boton-position{position:static;left:inherit;top:inherit;    display: inline-block;
+		width: 100%;
+		text-align: center;padding:40px 0 50px;}
+	 .btn-boton{float:none;margin-right:0;margin-top:10px;}
+
+	 .button-comprar-entrada{padding:0;margin-top:20px;display:block;}
+	 .button-comprar-entrada A{font-size:16px;padding:15px 20px;}
+
+	 .cnt_confirmados .content-awards .capa-flotante{top:470px;height:170px;}
+     .cnt_confirmados .content-awards .awards-top{padding-top:35px;}
+	 .cnt_nominados ul {
+			width: 100%;
+			max-width: 998px;
+			display: flex;
+			justify-content: center;
+			padding: 35px 0px 60px;
+			text-align: center;
+			border-bottom: 1px solid #1a1a1a;
+			margin: 0 auto;
+			flex-wrap: wrap;
+			align-content: center;
+		}
+	.contenedor-votaciones .cnt_nominados UL.botones_registrado{display:flex;}
+	}
+
+@media (min-width:991px){	
+	 .cnt_nominados ul{ display:flex;}
+			
+}
+@media (max-width:991px){		  
+	.awards-bottom .cnt_nominados:not(.cnt_golden) li{width:145px;padding-left:15px;padding-right:15px;}
+	.awards-bottom .cnt_nominados li img{width:145px;}
+	.cnt_nominados li{margin-bottom:15px;}
+	.cnt_nominados li:last-child{margin-bottom:0;}
+	.modal .cnt_mensaje .follow-programs UL{display:flex;}
+}
+@media (max-width: 767px){
+	.content-awards .awards-top{padding:30px 0 0;background-size:66%, 84%;}
+	.content-awards .awards-top{		
+		background-image:url(../images/Cabecera_PC_izquierdo.png),url(../images/Cabecera_PC_derecho.png);
+		background-position:-43px bottom, right bottom;
+		background-repeat:no-repeat, no-repeat;		
+		}
+	.content-awards .awards-top .intro-concurso{padding-bottom:60px;}
+	.awards-top .destacado IMG{max-width:85%;width:100%;}
+	.awards-top .destacado .logo-position IMG{width:68%;}
+	.awards-top .follow-programs{margin-top:0;padding-top:10px;}
+	.awards-top .follow-programs UL{    padding-top: 5px;}
+	.cnt_nominados{padding:40px 0 0px;}
+	.contenedor-votaciones .cnt_nominados{padding:40px 0 40px;}	
+	.cnt_nominados h2{font-size:30px;}
+	.cnt_nominados H3{font-size:20px;padding:0 50px;}
+	.cnt_nominados h4 A, .cnt_nominados h4{font-size:14px;line-height:20px;}
+	.cnt_nominados h4 + p A{font-size:11px;margin-top:4px;line-height:20px;}
+	.intro-concurso h3{font-size:13px;}
+	.cnt_nominados UL{padding:30px 0 35px;}
+	.cnt_nominados li{margin-right:0;width:auto;margin-bottom:10px;}
+	.awards-bottom .cnt_nominados li img{margin-bottom:10px;}
+	.cnt_nominados .votar, .modal .cnt_mensaje p a.btn-premios, .btn-premios{font-size:16px;padding:12px 25px}	
+	.cnt_nominados .votar{margin-top:20px;}
+	/***fondos de las capas y titles de picos ***/
+	.menu-anclado LI{padding:0 3px;}
+	.menu-anclado LI A{font-size:10px;}
+	.menu-anclado LI A span{font-size:14px;}
+	.menu-anclado LI.ancla-golden{width:90px;}
+	.capa_enviar_correo{width:100%;}	
+	.los40-music-awards .contenedor_barras .menu-awards-tag UL LI A{padding:10px 5px;}
+	.cnt_nominados:nth-child(1),
+	.cnt_nominados.cnt_votaciones,
+	.cnt_nominados.cnt_internacionales,
+	.cnt_nominados.content_golden{
+		border-top:4px solid #b9a161;
+		background-image:url(../images/bg_content_izq_movil.png),url(../images/bg_content_der_movil.png);
+		background-repeat:no-repeat;
+		background-position:left top, right top;
+		background-color:#000;
+		}
+   .header-access.header-voto{padding-bottom:0px;}
+	}
+@media (max-width: 390px){
+	.menu-anclado{display:flex;}
+	}
+@media (max-width: 360px){
+	.cnt_nominados .votar,
+	.modal .cnt_mensaje p a.btn-premios,
+	.btn-premios{
+		padding:15px 20px;
+		font-size:16px;
+		}
+	.btn-action .fa{font-size:17px;}
+	.los40-music-awards .contenedor_barras .menu-awards-tag UL LI A{font:12px 'Galano Grotesque Regular', sans-serif;}
+	.menu-anclado LI{/*display:block;width:100%;text-align:left;padding-left:50px;*/}
+	.capa_enviar_correo{width:96%;left:5px;}
+	.button-comprar-entrada A{font-size:15px;}
+	.cnt_nominados H3{padding:0 50px;}
+	.menu-anclado LI A{font-size:9px;}
+	}
+.site-footer{width:100%;display:inline-block;clear:both;}
+#capa_votar .boton-quiero-votar{
+	    
+	    background: #baa161;
+		padding: 10px 20px;
+		min-width: 100px;
+		display: inline-block;
+		color: #fff;
+		font-size: 16px;
+		font-family: 'Killer-Regular', Arial;
+		color: #000;
+		border-radius: 30px;}
+.contenedor_barras.contenedor_super_destacada .menu-awards-tag UL LI A{font:13px 'Galano Grotesque Regular', sans-serif;}
+.contenedor_barras.contenedor_super_destacada .menu-awards-tag UL LI A:hover{color:#baa161!important;}
+.contenedor_barras.contenedor_super_destacada .menu-awards-tag UL LI.active A{color:#baa161!important;font:13px 'Galano Grotesque Bold', sans-serif;}  
+.awards-top .destacado H1{display:inline-block;}
+/********/
+/***** estilos menu para movil ***/
+@media (max-width: 767px){
+.contenedor_barras .menu-awards-tag ul {
+    display: flex;
+   /* Make this scrollable when needed */
+   overflow-x: auto;
+   /* We don't want vertical scrolling */
+   overflow-y: hidden;
+   /* Make an auto-hiding scroller for the 3 people using a IE */
+   -ms-overflow-style: -ms-autohiding-scrollbar;
+   /* For WebKit implementations, provide inertia scrolling */
+   -webkit-overflow-scrolling: touch;
+   /* We don't want internal inline elements to wrap */}
+.contenedor_barras .menu-awards-tag::-webkit-scrollbar {display: none;}
+.contenedor_barras .menu-awards-tag{overflow:hidden;max-width:768px;}
+.contenedor_barras .menu-awards-tag ul li{padding:0px 10px;}
+
+}

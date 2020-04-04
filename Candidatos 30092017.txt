@@ -1,0 +1,181 @@
+<div class="contenedor_principal_de_lista_40_x1">
+<script type="text/javascript" language="Javascript">
+			//<![CDATA[
+			vdclip[1] = Object();
+			vdclip[1].id = '';
+			vdclip[1].id_referencia = '';
+			vdclip[1].urlNoticia = '';
+			vdclip[1].tipo = 'externo';
+			vdclip[1].urls = Array();
+						vdclip[1].urls.push('https://www.youtube.com/watch?v=IvHd2A7plKg');
+									vdclip[1].anchoPlayer = 600;
+			vdclip[1].altoPlayer = 350;
+			vdclip[1].poster = url_cache + '';
+			vdclip[1].titulo = 'Kaleo - Way down we go [2016]';
+			vdclip[1].publiActiva = true;
+			vdclip[1].keywords = 'los40,videoclips,lista40';
+			vdclip[1].tagsIds = '';
+			vdclip[1].tagsNombreNormalizado = '';
+			vdclip[1].player = '0';
+			vdclip[1].entradilla = 'El número 1 de la Lista 40. Lleva 13 semanas en lista. ';
+			//]]>;
+			</script>
+<div style="display: none" class="cont_video">
+<div id="contenedor_vdclip_1" class="media"> </div>
+</div>
+<div class="contenido_lista_40_columna_secundaria_x1">
+<h2 class="titulo_lista_40_columna_secundaria">CANDIDATOS </h2>
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/logo_lista_40_x1.png" class="imagen_logo_lista_40_columna_secundaria" />
+</div>				
+<div class="contenedor_de_lista_de_reproduccion">
+<div class="contenido_indicador_de_posicion_x1">
+<h6 class="numero_de_posicion_lista_40">					
+C					
+</h6>
+<hr class="divisor_lista_40_posicion" />					
+<img src="http://i68.tinypic.com/k9i9ef.jpg" class="icono_flecha_indicador_posicion" />
+</div>
+<div class="contenido_lista_y_detalle_x1">				  
+<!-- <a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')"></a>-->
+<a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';"></a>
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<img alt="Carátula de: A/B" class="imagen_album_lista_reproduccion" title="A/B" src="https://images.genius.com/eda133d0e85c38ac75a5bf0f12e19191.1000x1000x1.jpg" onerror="javascript:this.src=&#39;/los40/iconos/v1.x/v1.0/varios/no_caratula_p.jpg&#39;" />
+</a>						
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/icono_play_lo_mas_visto.png" class="icono_play_detalle_x2 player_lista_40" />
+
+<article class="seccion_detalles_de_album">					
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<h2 class="titular_album">Marshmello & Khalid</h2>
+<p class="detalle_album_reproduccion">Silence</p>
+</a>
+</article>
+</div>
+</div>	
+<div class="contenedor_de_lista_de_reproduccion">
+<div class="contenido_indicador_de_posicion_x1">
+<h6 class="numero_de_posicion_lista_40">					
+C					
+</h6>
+<hr class="divisor_lista_40_posicion" />					
+<img src="http://i68.tinypic.com/k9i9ef.jpg" class="icono_flecha_indicador_posicion" />
+</div>
+<div class="contenido_lista_y_detalle_x1">				  
+<!-- <a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')"></a>-->
+<a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';"></a>
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<img alt="Carátula de: A/B" class="imagen_album_lista_reproduccion" title="A/B" src="https://images.genius.com/5c2187170c83651bacd3424b69089407.1000x1000x1.jpg" onerror="javascript:this.src=&#39;/los40/iconos/v1.x/v1.0/varios/no_caratula_p.jpg&#39;" />
+</a>						
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/icono_play_lo_mas_visto.png" class="icono_play_detalle_x2 player_lista_40" />
+
+<article class="seccion_detalles_de_album">					
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<h2 class="titular_album">Cmila Cabello</h2>
+<p class="detalle_album_reproduccion">Havana</p>
+</a>
+</article>
+</div>
+</div>	
+<div class="contenedor_de_lista_de_reproduccion">
+<div class="contenido_indicador_de_posicion_x1">
+<h6 class="numero_de_posicion_lista_40">					
+C					
+</h6>
+<hr class="divisor_lista_40_posicion" />					
+<img src="http://i68.tinypic.com/k9i9ef.jpg" class="icono_flecha_indicador_posicion" />
+</div>
+<div class="contenido_lista_y_detalle_x1">				  
+<!-- <a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')"></a>-->
+<a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';"></a>
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<img alt="Carátula de: A/B" class="imagen_album_lista_reproduccion" title="A/B" src="http://elrescatemusical.com/wp-content/uploads/2017/07/DFNjgepXoAAm3sj.jpg-large.jpeg" onerror="javascript:this.src=&#39;/los40/iconos/v1.x/v1.0/varios/no_caratula_p.jpg&#39;" />
+</a>						
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/icono_play_lo_mas_visto.png" class="icono_play_detalle_x2 player_lista_40" />
+
+<article class="seccion_detalles_de_album">					
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<h2 class="titular_album">Sidecars</h2>
+<p class="detalle_album_reproduccion">Tu Mejor Pesadilla</p>
+</a>
+</article>
+</div>
+</div>
+<div class="contenedor_de_lista_de_reproduccion">
+<div class="contenido_indicador_de_posicion_x1">
+<h6 class="numero_de_posicion_lista_40">					
+C					
+</h6>
+<hr class="divisor_lista_40_posicion" />					
+<img src="http://i68.tinypic.com/k9i9ef.jpg" class="icono_flecha_indicador_posicion" />
+</div>
+<div class="contenido_lista_y_detalle_x1">				  
+<!-- <a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')"></a>-->
+<a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';"></a>
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<img alt="Carátula de: A/B" class="imagen_album_lista_reproduccion" title="A/B" src="https://images.genius.com/8156b794b78dfe5c976c6ac89f3b2465.1000x1000x1.jpg" onerror="javascript:this.src=&#39;/los40/iconos/v1.x/v1.0/varios/no_caratula_p.jpg&#39;" />
+</a>						
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/icono_play_lo_mas_visto.png" class="icono_play_detalle_x2 player_lista_40" />
+
+<article class="seccion_detalles_de_album">					
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<h2 class="titular_album">Thirty Seconds To Mars</h2>
+<p class="detalle_album_reproduccion">Walk On Water</p>
+</a>
+</article>
+</div>
+</div></div>
+<!-- <a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')"></a>-->
+<a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';"></a>
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<img alt="Carátula de: A/B" class="imagen_album_lista_reproduccion" title="A/B" src="http://www.popelera.net/wp-content/uploads/2017/09/malu-invisible.jpg" onerror="javascript:this.src=&#39;/los40/iconos/v1.x/v1.0/varios/no_caratula_p.jpg&#39;" />
+</a>						
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/icono_play_lo_mas_visto.png" class="icono_play_detalle_x2 player_lista_40" />
+
+<article class="seccion_detalles_de_album">					
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<h2 class="titular_album">Malú</h2>
+<p class="detalle_album_reproduccion">Invisible</p>
+</a>
+</article>
+</div>
+</div>	
+<div class="contenedor_de_lista_de_reproduccion">
+<div class="contenido_indicador_de_posicion_x1">
+<h6 class="numero_de_posicion_lista_40">					
+C					
+</h6>
+<hr class="divisor_lista_40_posicion" />					
+<img src="http://i68.tinypic.com/k9i9ef.jpg" class="icono_flecha_indicador_posicion" />
+</div>
+<div class="contenido_lista_y_detalle_x1">				  
+<!-- <a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')"></a>-->
+<a class="audio" title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';"></a>
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<img alt="Carátula de: A/B" class="imagen_album_lista_reproduccion" title="A/B" src="https://images.genius.com/685d5f086260ce1bccca9e7e8209d9f2.1000x1000x1.jpg" onerror="javascript:this.src=&#39;/los40/iconos/v1.x/v1.0/varios/no_caratula_p.jpg&#39;" />
+</a>						
+<img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/icono_play_lo_mas_visto.png" class="icono_play_detalle_x2 player_lista_40" />
+
+<article class="seccion_detalles_de_album">					
+<!--<a title="ver vídeo" href="javascript:void(0);" onclick="despliegaVideoClip('1')">-->
+<a title="ver vídeo" href="javascript:void(0);" onclick="window.location='http://los40.com/lista40';">
+<h2 class="titular_album">DuaLipa</h2>
+<p class="detalle_album_reproduccion">New Rules</p>
+</a>
+</article>
+</div>
+</div>	
+<div class="boton_contenedor_ver_toda_la_lista">
+<p class="ver_toda_la_lista_x1">Ver Lista de LOS40</p>
+<a href="http://los40.com/lista40/"><img src="http://los40es00.epimg.net/los40/iconos/v2.x/v1.0/iconos/desplegable_ver_toda_la_lista.jpg" class="icono_desplegarble_ver_lista" /></a>
+</div>			
+</div>

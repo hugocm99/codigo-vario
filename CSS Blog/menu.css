@@ -1,0 +1,710 @@
+﻿/*** emisoras ****/
+.contenido_emisoras{background:#fff;}
+.contenido_emisoras H2{width:100%!important;position:relative;padding-bottom: 60px;letter-spacing:3px;}
+.contenido_emisoras H2:first-of-type{color:#f7413e;font-size:27px;position:relative;}
+.contenido_emisoras H2:after{
+	    content: '';
+    position: absolute;
+    left: 0;
+    bottom:30px;
+    width: 22px;
+    height: 3px;
+    background: #fa3f38;
+	}
+.contenido_emisoras H3{font-family: 'Poppins';font-size: 16px;text-transform: uppercase;padding-bottom:15px;}
+.contenido_emisoras UL LI{padding-bottom:15px;}
+.contenido_emisoras A{line-height:22px;font-size:16px;font-family: 'Poppins';}
+.contenido_emisoras A:hover{color:#fa3f38;font-family: 'Poppins'; text-decoration:underline;}
+.bloque-emisora P{margin-bottom:10px;}
+.bloque-emisora UL{padding-right:25px;}
+.bloque-mapa{
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 31.5%;
+    box-sizing: border-box;
+    position: relative;
+	padding-bottom:60px;}
+
+.los40-content-menu {
+    width: 100%;
+    height: 62px;
+    background-color: #000;
+    z-index: 1000;
+    position: relative;
+    box-sizing: border-box;}
+.publi_fixed{top:160px!important;}
+.menu_fixed{position:fixed;z-index:2001;top:0px;}
+.radio_fixed{position:fixed;z-index:1000;top:60px;}
+/* .hover-fixed{top:60px!important;} */
+.open-fixed{height:100%!important;}
+.los40-main-menu{float:left;margin-left:60px;background-color:transparent;position:relative; margin-top:-5px;}
+.los40-main-menu ul li{float:left;list-style:none;padding:0px 30px;}
+.los40-main-menu ul li a {
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 25px 0px 21px;
+    font-size: 0.875em;
+    color: #fff;
+    font-family: 'Galano Grotesque Regular';
+    text-transform: uppercase;}
+/********************  ajustes integración tarjeta 40  en responsive ************************/
+.los40-main-menu ul li.tarjeta40 a{display:flex; align-items:center;padding:20px 0 15px;}
+.los40-main-menu ul li.tarjeta40 img{margin-right:5px;}
+.los40-active-menu{font-family:'Galano Grotesque Bold'!important;}
+/* Menu Desplegar Programas*/
+.los40-main-menu ul li a:hover{color:#fdca2e;}
+.los40-background-menu {
+    width: 100%;
+    height: 1200px;
+    position: fixed;
+    z-index: 8000;
+    background-color: rgba(255, 255, 255, 0.53);
+	  top: 0px;
+    display: none;}
+.los40-dropdown-menu-open {
+    width: 318px;
+    background-color: #000;
+    float: right;
+    position: fixed;
+    right: -350px;
+    top: 40px;
+    z-index: 19000;
+    height: calc(100% - 40px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-y: scroll;
+    -moz-overflow-y: scroll;
+    -o-overflow-y: scroll;
+    overflow-scrolling: touch;}
+/*Estilos FOOTER*/
+.cnt-publicidad {
+    width:100%;
+    clear:both;
+    background:#ddd;
+    min-height:130px;
+    float:left;
+    text-align:center;}
+.cnt-article .cnt-full {
+    width: 100%;
+    background:#f7f7f7;
+    min-height:200px;
+    margin: 20px 0px;
+    clear: both;}
+.cnt-article .cnt-izq {
+    width: 40.625rem;
+    float: left;
+    clear: none;
+    background:#f7f7f7;
+    min-height:400px;}
+aside.publicidad {
+    width: 18.75rem;
+    margin: 0 auto 1.5rem;
+    float: right;
+    clear: right;
+    background:#f7f7f7;
+    min-height:400px;}
+.pie {
+    max-width: 1042px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px 0px 65px 0px;
+    clear: both;}
+.corporativo {
+    font-family: 'Benton Sans', Sans-Serif;
+    font-size: 0.688rem;
+    line-height: 0.688rem;
+    padding: 0.375rem 1.313rem 0.438rem;
+    border-top: 0.063rem solid #ddd;
+    border-radius: 0.125rem;
+    background-color: #f6f5f5;
+    max-width: 958px;
+    margin: 0 auto;}
+.corporativo-menu {text-align: left;}
+.corporativo-menu li {
+    display: inline;
+    border-right: 0.063rem solid #ddd;
+    margin: 0 0.125rem 0 0;
+    padding: 0 0.250rem 0 0;}
+.corporativo-menu li a {
+    display: inline-block;
+    line-height: 1.063rem;
+    color: #444;
+    text-decoration: none;
+    font-family: 'Galano Grotesque Regular';}
+b, strong {font-weight: bold;}
+.icono {
+    background-image: url("http://los40es00.epimg.net/los40/iconos/v2.x/v2.0/iconos.svg");
+    background-repeat: no-repeat;
+    background-size: cover;}
+/*--Radios online--*/
+.los40-content-radios,.los40-content-program,.los40-content-podcast{width:100%;background:#201f1e;float:left; top:100px;}
+.los40-radios-online,.los40-program-online,.los40-podcast-online{width:100%;box-sizing:border-box;background:#131313;position:relative;display:flex;align-items:center;}
+.los40-radios-online,.los40-program-online,.los40-podcast-online{padding:10px 10% 12px;height:110px;}
+.los40-radios-online ul,.los40-program-online ul,.los40-podcast-online ul{display:flex;justify-content:center;flex-flow:row nowrap;margin:0;padding:0;width:100%;}
+.los40-radios-online ul li,.los40-program-online ul li,.los40-podcast-online ul li{list-style:none;width:88px;}
+.los40-radios-online ul li a,.los40-program-online ul li a,.los40-podcast-online ul li a{text-decoration:none;display:flex;align-items:center;flex-flow:column nowrap;}
+.los40-list-programs ul li a span:hover,
+.los40-menu-podcast ul li a span:hover{color:#fdca2e;}
+.los40-radios-online span.los40-radio-name,
+.los40-program-online span.los40-radio-name,
+.los40-podcast-online span.los40-radio-name{font-size:0.625em;color:#fff;font-family:'Roboto Regular',sans-serif;line-height:12px;width:100%;text-align:center;padding-top:5px;display:block;letter-spacing:.5px;}
+.los40-radio-close{position:absolute;right:35px;top:37px;cursor:pointer;}
+.los40-radios-online ul,.los40-program-online ul,.los40-podcast-online ul{
+   /* Make this scrollable when needed */
+   overflow-x: auto;
+   /* We don't want vertical scrolling */
+   overflow-y: hidden;
+   /* Make an auto-hiding scroller for the 3 people using a IE */
+   -ms-overflow-style: -ms-autohiding-scrollbar;
+   /* For WebKit implementations, provide inertia scrolling */
+   -webkit-overflow-scrolling: touch;
+   /* We don't want internal inline elements to wrap */}
+.los40-radios-online ul::-webkit-scrollbar,
+.los40-program-online ul::-webkit-scrollbar,
+.los40-podcast-online ul::-webkit-scrollbar{display: none;}
+
+
+#contenido_cabecera {width: 100%;}
+a.espacio_anda_ya {margin-top: -17px;}
+.cerrar_submenu_z2 {display: none;}
+#publicidad_header_funcion_menu {margin-top:71px;}
+/*** estilos para el H1 del logo oculto por CSS ***/
+H1.logo{
+    line-height: 0;
+	font-size:0;
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    float: left;
+	}
+	H1.logo span{position:absolute;left:-99999px; text-indent: -999999px;}
+@keyframes marquee {
+  0% { -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);}
+  100% { -webkit-transform: translate(-100%, 0);
+    -ms-transform: translate(-80%, 0);
+    transform: translate(-80%, 0);}}
+.los40-content-lupa{float:right;margin:0px 11px;padding-bottom:5px;width:21px;cursor:pointer;}
+.submenu_proyecto_40_principales_z3 {float: left;width: auto;display: table;}
+.los40-more,
+.los40-less{float:right;font-size:25px;margin-top:-5px;margin-right:1px;cursor:pointer;}
+.los40-less {display: none;}
+.publicidad_plantilla {
+    width: 100%;
+    background-color: #f5f5f5;
+    display: table;
+    position: relative;
+    z-index: 40;
+    top: -1px;}
+.publicidad_plantilla_2 {display: none;position: relative;z-index: 50;}
+li.indicador_siguenos {
+    font-size: 15px;
+    padding: 26px 35px 16px 35px;
+    color: #fff;
+    font-family: 'Galano Grotesque Bold';}
+a.botones_submenu_40_z1 {
+    text-align: left;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 29px 12px 29px 40px;
+    display: block;
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Galano Grotesque Regular';}
+.nav.base_submenu_40_principales_z1 {width:100%;max-width:312px;display:table;}
+.base_submenu_40_principales_z1 {
+    width: 313px;
+    display: table;
+    float: right;
+    background-color: #212121;
+    position: relative;
+    z-index: 10;
+	  margin-top: -895px;}
+.base_submenu_40_principales_z1 li {list-style: none;}
+img.icono_puntos_menu {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 35px;}
+a.botones_submenu_40_z1:hover{color:#fdca2e;}
+.los40-content-actions {
+    background-color: #000;
+    display: table;
+    position: fixed;
+    z-index: 400;}
+.los40-search {
+    height: 28px;
+    width: 70%;
+    border: none;
+	  font-family: 'Galano Grotesque Regular';
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size:1em;
+    color: #b3b3b4;
+	  outline: 0px;}
+input[type="search" i]::-webkit-search-cancel-button{-webkit-appearance:none;}
+.los40-icon-lupa{width:18px;height:18px;}
+.etiqueta_informativa{color: #fff;font-family:'Galano Grotesque Regular';}
+.etiqueta_informativa a {
+    color: #fff;
+    text-decoration: none;
+    font-size:0.875em;
+    font-family: 'Roboto Regular';
+    white-space: nowrap;}
+p.etiqueta_informativa.marqueealert{
+    color: #fff;
+    padding-top:0px;
+    font-family: 'Roboto Regular';
+    width: 400px;
+    -webkit-animation: marquee 8s linear infinite;
+    animation: marquee 8s linear infinite;
+    padding-left: 100%;}
+p.etiqueta_informativa.marqueealert:hover{ animation-play-state: paused;}
+.los40-search-menu {
+    padding: 10px;
+    box-sizing: border-box;
+    height: 40px;
+    width:80%;
+    background-color: #fff;
+    border-radius: 42px;
+    margin:5px 30px;}
+.los40-submenu-programs{display:none;}
+.los40-submenu-list{display:none;}
+.contenido_botones_resgitro_ingreso li a:hover {color: red;}
+.los40-information{padding:4px 0px;font-size:0.75em;display:block;color:#fff;text-decoration:none;font-family:'Galano Grotesque Regular';}
+.los40-information:hover{color:#fdca2e;}
+.los40-dropdown-menu{position:relative;}
+.los40-dropdown-menu .los40-icon-alert{position:absolute;top:30px;right:20px;z-index:10000;cursor:pointer;}
+.los40-siguenos {
+    font-family:'Galano Grotesque Bold'!important;
+    padding:25px 0px 10px 0px!important;}
+img.icono_alertas_z1{width:17px;height:17px;}
+.marquee {width: 80%;}
+.los40-content-alerts {padding:20px 30px 15px 30px;}
+.content-marquee{position:relative;}
+.content-etiqueta-informativa{overflow:hidden;width:auto;margin:0px 0px 0px 25px;}
+.los40-content-alerts p{margin-top:15px;padding-top:0;}
+.los40-dropdown-menu-open .los40-content-alerts img.icono_alertas_z1{position:absolute;left:0;top:15px;}
+.los40-dropdown-menu-open li, .los40-dropdown-menu-open li a {
+    color: #fff;
+    font-family: 'Galano Grotesque Regular';
+    display: block;
+    text-transform: uppercase;}
+.los40-dropdown-menu-open li{list-style:none;margin:0px 30px;border-bottom:1px solid #313131;}
+.los40-dropdown-menu-open .los40-content-actions li{margin:0px;}
+.los40-dropdown-menu-open li a{padding: 20px 0px;font-size: 0.875em;}
+.los40-dropdown-menu-open .contenido_botones_resgitro_ingreso li{border-bottom:none;box-sizing:border-box;width:105px;float:left;}
+.los40-menu-burger-close{
+    width: 26px;
+    padding: 20px 22px;
+    float: right;
+    cursor: pointer;
+    display: block;
+    z-index: 1500;
+    background-color: #000;}
+.los40-submenu-list{margin-bottom:25px;}
+.los40-submenu-list li{border-bottom:none;margin:0px 0px 0px 20px;}
+.los40-submenu-list li a{font-size:0.875em;}
+.los40-submenu-programs{margin-bottom:25px;}
+.los40-submenu-programs li{border-bottom:none;margin:0px 0px 0px 20px;}
+.los40-submenu-programs li a{font-size:0.875em;}
+.los40-dropdown-menu-open li a.los40-siguenos{font-size:0.625em;letter-spacing:.5px;}
+.los40-today-button{
+    padding: 25px 0px 0px 0px !important;
+    font-size: 0.875em !important;
+    font-family: 'Galano Grotesque Bold'!important;}
+.los40-today-menu ul li a{padding:10px 5px;font-size:0.875em;}
+.los40-dropdown-menu-open li a:hover{color:#fdca2e!important;}
+li.los40-private-policy-prisa{
+    font-size: 0.75em;
+    line-height: normal;
+    font-family: 'Galano Grotesque Bold';
+    padding: 0px 0px 4px 0px;
+    margin: 0px;
+    text-transform: uppercase;}
+.menu_seccion_inferior{
+    padding: 15px 32px !important;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 15px !important;}
+.los40-submenu-programs li a,
+.los40-submenu-programs li a:hover{
+    padding: 10px 5px;
+    display: block;}
+.los40-submenu-list li a,
+.los40-submenu-list li a:hover{
+    padding: 10px 5px;
+    display: block;}
+img.fotografia_login {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius:100%;
+    border: 2px solid #fff;}
+img.icono_candado_menu {
+    margin-top: 10px;
+    width: 21px;
+    float:right;
+    margin-right: 15px;}
+.nombre_del_usuario_a1 {
+    width: auto;
+    float: left;
+    padding: 12px 10px;
+    color: #fff;
+    text-transform:uppercase;
+    font-family: 'Galano Grotesque Bold';}
+.nombre_del_usuario_a1 a{color:#fff;text-decoration:none;font-size:0.812em}
+.contenido_boton_login_menu {
+    width: 300px;
+    height: 62px;
+    background-color: #222222;
+    padding: 12px 65px 12px 30px;
+    box-sizing: border-box;
+    display: none;}
+.imagen_publicidad_plantilla_principal {
+    max-width: 998px;
+    width: 100%;
+    position: relative;
+    z-index: 20;}
+.contenido_redes_desplegablê {float:left;padding:0px 0px 0px 8px;}
+#efecto_click_menu_redes_sociales{
+    padding: 0px 3px;
+    -webkit-box-shadow: 0px -8px 36px 0px rgba(133,133,133,1);
+    -moz-box-shadow: 0px -8px 36px 0px rgba(133,133,133,1);
+    box-shadow: 0px 0px 36px 0px rgba(133,133,133,1);
+    border-radius: 0px 0px 30px 30px;}
+.menu-follow{border-bottom:none!important;}
+.los40-siguenos-redes {
+    display: block;
+    padding: 0px 0px 25px 0px;
+    box-sizing:border-box;
+    margin: 0px 30px;
+    border-bottom: 1px solid #313131;}
+a.espacios_hoy_en_los_40{padding:0px!important;font-size:0.875em!important;}
+.los40-content-private-policy{padding:25px 30px;}
+.los40-content-private-policy li{border-bottom:none;}
+.los40-today {border-bottom:1px solid #313131;margin:0px 30px;}
+.los40-today li{border-bottom:none;margin:0px;padding-bottom:25px;}
+.los40-today li ul{margin-top: 10px;}
+.los40-today li ul li{padding-bottom:0px;margin:0px 0px 0px 20px;}
+.los40-siguenos-icon-redes{width:30px;height:30px;margin-right:10px;}
+.contenido_botones_resgitro_ingreso {
+    width: 300px;
+    height: 62px;
+    background-color: #000;
+    box-sizing: border-box;
+    padding-top: 18px;
+    padding-left: 10px;
+    display: block;}
+.contenido_botones_resgitro_ingreso li {list-style: none;float: left;}
+.contenido_botones_resgitro_ingreso li a {
+    text-decoration: none;
+    padding: 9px;
+    display: block;
+    color: #fff;
+    font-family: 'Galano Grotesque Bold';
+    font-size:0.812em;}
+.los40-menu-burger {
+    cursor: pointer;
+    background-color: #000;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 5000;}
+.los40-live {
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 40px;
+    width: 124px;
+    height: 29px;
+    background-color: #fdca2e;
+    border-radius: 30px;
+    cursor: pointer;}
+.base_payer_icon_menu {display:table;width:auto;float:right;margin-top:14px;}
+.los40-listen-live {
+    font-family: 'Galano Grotesque Bold';
+    color: #000;
+    font-size: 0.75em;
+    line-height: 32px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-top:-1px;}
+.los40-icon-live {position:absolute;top:3px;left:15px;}
+.los40-live-button{width:14px;height:14px;}
+.contenedor_principal{display:table;margin:auto;max-width:972px;width:100%;}
+.los40-logo-section-prisa {
+    width: 100%;
+    height: 34px;
+    position: relative;
+    z-index: 30;
+    background-color: #262626;}
+.los40-logo-prisa-web{position:absolute;right:20px;top:4px;}
+.los40-logo{float:left;margin-left:30px;height:62px;box-sizing:border-box;}
+.los40-logo-menu {float:left;width:88px;padding-top:5px;}
+.los40-content-menu {
+    width: 100%;
+    height: 62px;
+    background-color: #000;
+    z-index: 1000;
+    position: relative;
+    box-sizing: border-box;}
+.publi_fixed{top:160px!important;}
+.menu_fixed{position:fixed;z-index:2001;top:0px;}
+.radio_fixed{position:fixed;z-index:1000;top:60px;}
+/* .hover-fixed{top:60px!important;} */
+.open-fixed{height:100%!important;}
+.los40-main-menu{float:left;margin-left:60px;background-color:transparent;position:relative;}
+.los40-main-menu ul li{float:left;list-style:none;padding:0px 30px;}
+.los40-main-menu ul li a {
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 25px 0px 21px;
+    font-size: 0.875em;
+    color: #fff;
+    font-family: 'Galano Grotesque Bold';
+    text-transform: uppercase;}
+/********************  ajustes integración tarjeta 40  en responsive ************************/
+.los40-main-menu ul li.tarjeta40 a{display:flex; align-items:center;padding:20px 0 15px;}
+.los40-main-menu ul li.tarjeta40 img{margin-right:5px;}
+.los40-active-menu{font-family:'Galano Grotesque Bold'!important;}
+/* Menu Desplegar Programas*/
+.los40-main-menu ul li a:hover{color:#fdca2e;}
+.los40-background-menu {
+    width: 100%;
+    height: 1200px;
+    position: fixed;
+    z-index: 8000;
+    background-color: rgba(255, 255, 255, 0.53);
+	  top: 0px;
+    display: none;}
+.los40-dropdown-menu-open {
+    width: 318px;
+    background-color: #000;
+    float: right;
+    position: fixed;
+    right: -350px;
+    top: 40px;
+    z-index: 19000;
+    height: calc(100% - 40px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-y: scroll;
+    -moz-overflow-y: scroll;
+    -o-overflow-y: scroll;
+    overflow-scrolling: touch;}
+
+@media screen and (max-width: 1350px) {
+	.los40-main-menu ul li{
+		padding:0px 20px;
+		}
+	}
+@media screen and (max-width: 1250px) {
+.los40-content-menu{border-bottom:1px solid #313131;}
+.los40-main-menu{width:100%;margin-left:0px;margin-top: 0.1px;}
+.los40-main-menu ul li{float:left;list-style:none;padding:0px 25px;}
+.los40-main-menu ul li a{font-size:0.687em;padding:12px 0px;}
+.los40-main-menu ul li.tarjeta40 a{padding:5px 0 10px;}
+.radio_fixed{top:99px;}
+/* .hover-fixed{top:97px!important;} */
+.publi_fixed{top:200px!important;}
+.los40-radios-online{padding: 10px 20% 12px;}
+.los40-program-online,.los40-podcast-online{padding: 10px 0% 12px;}
+}
+@media screen and (max-width: 768px) {
+.publicidad_plantilla{display: none;}
+.publicidad_plantilla_2{display: block;}
+nav.base_submenu_40_principales_z1 {margin-top: -845px;}
+.los40-logo-section-prisa {display: none;}
+.los40-content-menu {height:42px;}
+.los40-logo{margin-left:10px;height:42px;}
+.los40-logo-menu{width:60px;height:34px;padding-top:5px;}
+.los40-live{width:108px;height:26px;float:right;left:-50px;top:8px;}
+.los40-icon-live {top:3px;}
+.los40-listen-live {font-size:0.625em;line-height:30px;}
+.los40-main-menu ul {
+    display: flex;
+   /* Make this scrollable when needed */
+   overflow-x: auto;
+   /* We don't want vertical scrolling */
+   overflow-y: hidden;
+   /* Make an auto-hiding scroller for the 3 people using a IE */
+   -ms-overflow-style: -ms-autohiding-scrollbar;
+   /* For WebKit implementations, provide inertia scrolling */
+   -webkit-overflow-scrolling: touch;
+   /* We don't want internal inline elements to wrap */}
+.los40-main-menu::-webkit-scrollbar {display: none;}
+.los40-main-menu{overflow:hidden;max-width:768px;background-color:#000;}
+.los40-main-menu ul li{padding:0px 10px;}
+.los40-menu-burger{right:10px;top:12px;}
+.los40-dropdown-menu .los40-icon-alert{top:25px;right:5px;}
+.contenedor_principal {display: block;}
+/*--Radios online--*/
+.los40-content-radios,.los40-content-program,.los40-content-podcast{overflow:hidden;max-width:768px;}
+.los40-radios-online,.los40-program-online,.los40-podcast-online{padding:10px 5px;}
+.los40-radios-online ul,.los40-program-online ul,.los40-podcast-online ul{justify-content:flex-start;}
+.los40-radios-online ul li{width:16%;}
+.los40-program-online ul li,.los40-podcast-online ul li{width:10%;}
+.los40-radios-online ul li a,.los40-program-online ul li a,.los40-podcast-online ul li a{width:68px;}
+.los40-radios-online ul li img,.los40-program-online ul li img,.los40-podcast-online ul li img{margin:0 0 5px;display:block;}
+.los40-radios-online span.los40-radio-name,
+.los40-program-online span.los40-radio-name,
+.los40-podcast-online span.los40-radio-name{font-size:0.562em;}
+.los40-radio-close {display:none;}
+.radio_fixed{top:70px;}
+
+/*******fecha *****/
+.cover-title.azulon .title{width:auto;}
+.cambiar_fecha .capa_hemeroteca{top:32px;}
+.cambiar_fecha .fa-search{top:7px;}
+}
+@media (max-width:700px) {
+.cnt-article .cnt-full {width: 100%;min-height:100px;clear: both;}
+.cnt-article .cnt-izq {width: 100%;min-height:100px;clear: both;margin: 20px 0px;}
+aside.publicidad {width: 100%;min-height:100px;clear: both;margin: 20px 0px;}
+.cambiar_fecha .capa_hemeroteca .contenedor_eleccion {padding: 5px;width:calc(100% - 10px);}
+}
+@media screen and (max-width: 480px) {
+.radio_fixed {top: 0px;}
+.los40-content-player {left: 5px;}
+.los40-radios-online,.los40-program-online,.los40-podcast-online{max-width:450px;}
+.los40-radios-online ul li,.los40-program-online ul li,.los40-podcast-online ul li{width:75px;}
+.los40-main-menu ul li a{width:95px;}
+.los40-main-menu ul li:first-child a{width:90px;}
+.los40-main-menu ul li:nth-child(3) a{width:75px;}
+.los40-main-menu ul li:nth-child(4) a{width:100px;}
+.los40-main-menu ul li:nth-child(5) a{width:100px;}
+.los40-main-menu  ul li#los40-menu-los40musicawards A{width:135px;}
+.los40-main-menu ul li:last-child a{width:110px;}
+nav.base_submenu_40_principales_z1 {margin-top: -870px;}
+div#galeria_redes_sociales_w3 {width: 77%;margin: auto;}
+li.indicador_siguenos {font-size: 17px;padding: 31px 30px 22px 26px;}
+.los40-dropdown-menu-open{width:260px; height:100%;}
+.los40-dropdown-menu-open radio_fixed{top:58px;}
+.contenido_botones_resgitro_ingreso{width:260px;height:41px;padding-top:8px;}
+.los40-dropdown-menu-open .contenido_botones_resgitro_ingreso li{width:85px;}
+.los40-dropdown-menu-open .contenido_botones_resgitro_ingreso li a{font-size:0.687em;}
+.base_submenu_40_principales_z1 {width: 100%;top: -986px;}
+a.botones_submenu_40_z1 {
+    text-align: initial;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 30px 3px 30px 27px;
+    display: block;
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Galano Grotesque Regular';}
+a.menu_seccion_inferior{padding: 20px 48px !important;font-size: 18px;}
+/*.los40-menu-burger{
+  -webkit-box-shadow:0px 35px 20px 0px #000;
+  -moz-box-shadow:0px 35px 20px 0px #000;
+  box-shadow:0px 35px 20px 0px #000;}*/
+.los40-menu-burger-close{padding:10px 15px;width:20px;display:none;}
+.contenido_boton_login_menu{width:260px;height:41px;padding:4px 10px;}
+img.fotografia_login{width:28px;height:28px;}
+.nombre_del_usuario_a1{padding:8px 5px;}
+.nombre_del_usuario_a1 a{font-size:0.687em;}
+img.icono_candado_menu{margin-top: 6px;}
+.los40-content-alerts{padding:35px 25px 10px 25px;}
+.los40-dropdown-menu-open .los40-content-alerts img.icono_alertas_z1{top:18px;}
+img.icono_alertas_z1{width:14px;height:14px;}
+.content-etiqueta-informativa{margin:0px 0px 0px 20px;}
+.etiqueta_informativa a{font-size:0.709em}
+.los40-search-menu{height:25px;padding:2px 5px 5px 5px;margin:5px 25px 0px 25px;}
+.los40-search{font-size:0.780em;height:20px;padding-bottom:0px;padding-left:15px;}
+.los40-icon-lupa{width:12px;height:12px;}
+.los40-content-lupa{margin-top:4px;padding:0px;}
+.los40-dropdown-menu-open li{margin:0px 25px;}
+.los40-dropdown-menu-open li a{font-size:0.937em;}
+.los40-submenu-programs li{margin:0px 0px 0px 15px;}
+.los40-dropdown-menu-open li a.los40-siguenos{font-size:0.709em;}
+.los40-today-button,a.espacios_hoy_en_los_40{font-size:0.709em!important;}
+.los40-today-menu ul li a{font-size:0.709em!important;}
+.los40-siguenos-redes,.los40-today{margin:0px 25px;}
+.los40-siguenos-icon-redes{width:27px;height:27px;margin-right:5px;}
+.los40-today li{margin:0px}
+li.los40-private-policy-prisa{margin:0px;font-size:0.6em;}
+.los40-content-private-policy{padding:25px;}
+.los40-information{font-size:0.6em;}
+
+.mensaje.portadilla_tema{width:100%; padding:0;margin:0;}
+.cover-title.azulon .title{font-size:20px!important;letter-spacing:2.5px;}
+.cambiar_fecha .fa-search{left:9px;top:6px;font-size: 0.9em;}
+.cambiar_fecha A#busc_fecha{font-size: 0.625em;    padding:0 10px 0 25px;line-height: 29px;}
+.cambiar_fecha .capa_hemeroteca .eleccion_dia{display:flex;justify-content:space-between}    
+}
+@media screen and (max-width: 425px) {
+img.icono_puntos_menu.cerrar_submenu_z2 {margin-top: 12px;width: 29px;}
+li.indicador_siguenos {
+    font-size: 14.4px;
+    padding: 41px 30px 15px 26px;
+    color: #fff;
+    font-family: 'Galano Grotesque Bold';}
+li.indicador_siguenos {
+    font-size: 14.4px;
+    padding: 41px 30px 22px 26px;
+    color: #fff;
+    font-family: 'Galano Grotesque Bold';}
+a.botones_submenu_40_z1 {
+    text-align: initial;
+    font-size: 14.4px;
+    text-decoration: none;
+    padding: 28px 3px 39px 27px;
+    display: block;
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Galano Grotesque Regular';}
+a.menu_seccion_inferior {padding:14px 34px !important;font-size:14.4px !important;}
+
+.cambiar_fecha .capa_hemeroteca{width:340px;}
+.capa_hemeroteca .contenedor_calendario{padding:5px;width:168px;}
+.capa_hemeroteca .contenedor_desplegables{width:145px;}
+.capa_hemeroteca .contenedor_desplegables select{width:140px;}
+.capa_hemeroteca .contenedor_calendario .navegacion{display:flex;}
+.cambiar_fecha .capa_hemeroteca .contenedor_desplegables p{margin:0 0 6px 0;}
+}
+@media screen and (max-width:374px){
+	.cambiar_fecha .capa_hemeroteca{width:335px;}
+	.cambiar_fecha .capa_hemeroteca{width:303px;}
+	.capa_hemeroteca .contenedor_desplegables{width:130px;}	
+	.capa_hemeroteca .contenedor_desplegables select{width:108px;}
+	.cambiar_fecha .capa_hemeroteca .contenedor_desplegables p{font-size:12px;}
+	}
+
+
+
+/*** emisoras ****/
+.contenido_emisoras{background:#fff;}
+.contenido_emisoras H2{width:100%!important;position:relative;padding-bottom: 60px;letter-spacing:3px;}
+.contenido_emisoras H2:first-of-type{color:#f7413e;font-size:27px;position:relative;}
+.contenido_emisoras H2:after{
+	    content: '';
+    position: absolute;
+    left: 0;
+    bottom:30px;
+    width: 22px;
+    height: 3px;
+    background: #fa3f38;
+	}
+.contenido_emisoras H3{font-family: 'Poppins';font-size: 16px;text-transform: uppercase;padding-bottom:15px;}
+.contenido_emisoras UL LI{padding-bottom:15px;}
+.contenido_emisoras A{line-height:22px;font-size:16px;font-family: 'Poppins';}
+.contenido_emisoras A:hover{color:#fa3f38;font-family: 'Poppins'; text-decoration:underline;}
+.bloque-emisora P{margin-bottom:10px;}
+.bloque-emisora UL{padding-right:25px;}
+.bloque-mapa{
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 31.5%;
+    box-sizing: border-box;
+    position: relative;
+	padding-bottom:60px;}

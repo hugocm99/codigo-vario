@@ -1,0 +1,21 @@
+.caja.countdown{background:#131812;padding-bottom:15px;margin-bottom:50px;}
+.cont-awards > A{margin-left:-70px;}
+.content-fline-temporizador{margin-left:-60px;}
+.caja.countdown H3{margin:0;display:none;}
+.caja.countdown .cont-awards{text-align:center;font-family:'Galano Grotesque Bold', Arial, Helvetica, sans-serif;display: flex; align-items: center; justify-content: center;}  
+.fline.temporizador{margin:15px 0 0px;}
+.cont-awards IMG{width:50%;margin:20px 0 0;}
+.cont-awards .temporizador p.faltan{margin-bottom:5px}
+.cont-awards .temporizador span{background:#baa161;margin:0 3px;text-align:center;display:inline-block;min-width:45px;width:auto;padding:10px 5px 5px;color:#fff;font-size:34px;position:relative;}
+.cont-awards .temporizador span i{font-family:'Galano Grotesque Regular', Arial, Helvetica, sans-serif;display:block;width:auto;padding:0;margin:3px 0 0;color:#fff;font-size:12px}
+.cont-awards .temporizador .en-directo{border: 1px solid #C63527; color: #C63527; padding: 5px 9px 3px 9px; margin-top: 0; display: inline-block; text-transform: uppercase; font-size: 12px;}
+.cont-awards .mas a{color: #2C325F;}
+.cont-awards P{color:#fff;font-size:13px;border-top:1px solid #191616;padding-top:15px;font-family:'Galano Grotesque Regular', Arial, Helvetica, sans-serif;}
+@media (max-width:768px){
+.caja.countdown{padding-bottom:25px;margin-bottom:40px;}
+.cont-awards IMG{width:75%;}
+.caja.countdown .cont-awards{text-align:center;    flex-flow: column;}
+.cont-awards .temporizador span i{font-family:'Galano Grotesque Regular', Arial, Helvetica, sans-serif;display:block;width:auto;padding:0;margin:3px 0 0;color:#fff;font-size:12px}
+.cont-awards > A{margin-left:0;}
+.content-fline-temporizador{margin-left:0;}
+}

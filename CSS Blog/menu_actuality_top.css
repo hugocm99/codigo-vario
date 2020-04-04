@@ -1,0 +1,466 @@
+/***estilos 21/11/2016   Nieves *****/
+
+  .intro-concurso h1, h2{
+      font-size: 22px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      font-weight: bold;
+  }
+  .intro-concurso h3 {
+      font-size: 14px;
+    line-height: 20px;
+	font-family:'Galano Grotesque Bold', Arial, Helvetica;
+  }
+  .left-concurso{float:left;width:25%;text-align:center;padding-left:100px;}
+  .columna_principal .social-aside.datos_redes,
+  .columnas_principal_y_secundaria .social-aside.datos_redes {
+    border: none;
+  }
+
+  .social-list .btn .fa-facebook {
+      border-right: 1px solid #105A92;
+  }
+  .social-list .btn .fa-twitter {
+      border-right: 1px solid #44ABE0;
+  }
+  .social-list .btn .fa-google-plus {
+      border-right: 1px solid #B93D26;
+  }
+  .social-list .btn .fa-pinterest-p {
+      border-right: 1px solid #B31616;
+  }
+  .social-list .btn .fa-tumblr {
+      border-right: 1px solid #405E98;
+  }
+  .social-list .btn .fa-envelope {
+      border-right: 1px solid #319685;
+  }
+
+  .social-aside [class*="btn-"]:hover {
+      opacity: 1 !important;
+  }
+
+  .social-list .btn-facebook:hover {
+      background-color: #003A5F;
+  }
+  .social-list .btn-twitter:hover {
+      background-color: #2B7290;
+  }
+  .social-list .btn-gplus:hover {
+      background-color: #98291A;
+  }
+  .social-list .btn-pinterest:hover {
+      background-color: #8A1010;
+  }
+  .social-list .btn-tumblr:hover {
+      background-color: #374967;
+  }
+  .social-list .btn-email:hover {
+      background-color: #00889C;
+  }
+/** redes sociales **/
+.follow-programs {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width:300px;
+}
+.contenedor_lista_WDM .follow-programs{
+   width:280px;
+top:22px;right:150px;
+
+}
+.follow-programs h3 {
+    float: left;
+    margin: 16px 8px 0 0;    
+	color:#fff;
+}
+.follow-programs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.follow-programs ul li {
+    float: left;
+    margin: 1px 4px;
+}
+.follow-programs ul li a {
+    border-radius: 50%;
+    padding: 2px;
+    color: #fff;
+    font-size: 15px;
+    height: 25px;
+    width: 26px;
+    display: block;
+    text-align: center;
+    line-height: 26px;
+    vertical-align: middle;
+}
+.follow-programs ul li a .fa-facebook {
+    margin: 1px 0 0 -1px;
+    line-height: 20px;
+    display: inline-block;
+}
+.btn {
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.btn [class*="icon-"] {
+  padding: 6px 5px;
+  float: left;
+}
+.aside .btn [class*="icon-"] {
+  padding: 5px;
+  float: left;
+}
+.btn-youtube {
+  /*background-color: #b61821;*/
+  background-color: #e13536;
+}
+.btn-instagram {
+/*  background-color: #3f729b;*/
+  background-image:url(/los40/iconos/v1.x/v1.0/cabeceras_programas/bg_instagram.png);
+  background-repeat: no-repeat;
+}
+.btn-facebook {
+  background-color: #006db3;
+}
+.btn-twitter {
+  background-color: #67c6ef;
+}
+.btn-email {
+  background-color: #00b4b4;
+}
+.btn-tumblr {
+  background-color: #6f83a5;
+}
+.btn-gplus {
+  background-color: #d34836;
+}
+.btn-pinterest {
+  background-color: #cb2027;
+}
+.btn-itunes {
+  background-color:#9d4cda
+}
+.btn-itunes:hover {
+    background-color: #5e208c;
+}
+
+  /************* nuevos estilos los40 awards nominados/votaciones *********/
+  .oculto{display:none;}
+  .caja-concurso.interior{padding:0;background:#000;display:inline-block;}
+  .content-awards{display:inline-block;width:100%;background:#000;}
+       .content-awards .awards-top{display:inline-block;width:auto;clear:both;padding:60px 50px 80px;border-bottom:0;margin-bottom:0px;}
+       .content-awards .awards-bottom{display:inline-block;width:100%;padding-bottom:50px;}
+      .content-awards .awards-top IMG{float:none;margin:0;}
+      .content-awards .awards-top .intro-concurso{float:left;margin-left:50px;width:55%;margin-top:0;}
+          .awards-top .intro-concurso H1, H2{color:#fda028;font-size:24px;}
+          .awards-top .intro-concurso p{color:#fff;font-size:18px;line-height:27px;}
+          .awards-top .follow-programs{padding-top:0px;}
+          .awards-top .follow-programs UL{float:left;padding-top:12px;}
+             .awards-top .follow-programs UL LI{margin:1px 8px;}
+             .awards-top .follow-programs UL LI .btn-whatsap{background-color:#25d366}.awards-top .follow-programs UL LI .btn-whatsap:hover{opacity:0.5;}
+             .awards-top .follow-programs UL LI .btn-sms{background-color:#1db8bc;}.awards-top .follow-programs UL LI .btn-sms:hover{opacity:0.5;}
+          .awards-bottom H2{color:#fff;margin-bottom:0;   margin-top: -2px;}
+              .awards-bottom .cnt_nominados li img{width:auto;margin-bottom:10px;}
+              .awards-bottom H3{
+                  color:#fda028;font-size:18px;font-weight:bold;padding-left:60px;margin-top:20px;
+                  }
+    .content-awards .follow-programs ul li div.btn-generico {
+        border-radius: 50%;
+        padding: 0px;
+        color: #fff;
+        font-size: 15px;
+        height: 25px;
+        width: 26px;
+        display: block;
+        text-align: center;
+        line-height: 26px;
+        vertical-align: middle;}
+.content-awards .follow-programs ul li div.btn-generico:hover{cursor:pointer;}
+
+/*** 22/11 ****/
+
+.content-awards .awards-top{padding:35px 0px 60px 45px;}
+.content-awards .awards-top .intro-concurso{    margin-left: 40px;}
+ .awards-top .intro-concurso H1, H2{line-height:30px;}
+
+
+ /* capa enviar por correo */
+
+.capa_enviar_correo {width: 263px; background-color: #ffffff; border-left: 5px solid #F6193F; box-shadow: 0 0 5px #ccc; padding: 2em; position: absolute; top: -10px; left: auto; right: 0; z-index: 1010;}
+.capa_enviar_correo .encabezado {border-bottom: 1px solid #ddd; padding: 0 0 0.5em 0; width: 100%; margin-bottom: 12px;}
+.capa_enviar_correo a.enviar {display: block; width: 10em; height: auto; float: left; color: #000; text-indent: 0; padding: 0 0 0.5em 1.8em; width: 17.5em; background: transparent url(/iconos/v1.x/v1.0/redes/redes_noticia.png) no-repeat -5px -235px; font-size: 1.4em;}
+.capa_enviar_correo a.cerrar {background: transparent url(/iconos/v1.x/v1.0/elementos.png) no-repeat -44px -89px; width: 1.7em; height: 1.6em; display: block; float: right; text-indent: 100%; white-space: nowrap; overflow: hidden;}
+.capa_enviar_correo a:hover {opacity: 0.5;}
+.columna_principal .capa_enviar_correo p {margin: 1em 0; font-size: 1.4em;}
+.capa_enviar_correo p a {font-weight: bold;}
+.capa_enviar_correo p a:hover {text-decoration: none; opacity: 1;}
+.capa_enviar_correo legend {display: none;}
+.capa_enviar_correo label {display: block; margin-bottom: 0.5em; font-size: 1.4em; line-height: 1.8em;}
+.capa_enviar_correo input,
+.capa_enviar_correo textarea {background-color: #333; border: 0; width: 236px; padding: 1em; margin-bottom: 1.5em; font: 1.4em 'proximanova', Arial, Helvetica, sans-serif; color: #fff;}
+.capa_enviar_correo textarea {height: 10em;}
+.capa_enviar_correo p.aclaracion {width: 15em; float: left; margin: 0; color: #666; font-size: 1.2em; line-height: 1.3em;}
+.capa_enviar_correo input.enviar {width: 8em; float: right; color: #fff; margin: 0; display: block; background-color: #333; padding: 0.6em 0; font:1.4em/1em 'proximanova', Arial, Helvetica, sans-serif; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; border: none; text-align: center;}
+.capa_enviar_correo input.enviar:hover {cursor: pointer; color: #fff; background-color: #F6193F;}
+.capa_enviar_correo .ok,
+.capa_enviar_correo .error {background-color: #F6193F; background-repeat: no-repeat; color: #fff; line-height: 1.8em; margin: 1em 0 0; color: #fff; font-size: 1.4em; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;}
+.capa_enviar_correo .ok {background-image: url(/iconos/v1.x/v1.0/varios/tic_blanco.png); background-position: 1.2em 1.2em; padding: 1em 1em 1em 3em;}
+.capa_enviar_correo .error {background-image: url(/iconos/v1.x/v1.0/varios/error.png); background-position: 0.8em 0.8em; padding: 0.8em 1em 0.8em 3.5em; line-height: 1.1em;}
+.disposicion_vertical .capa_enviar_correo {top: 7.4em; left: -1.5em;}
+.capa_enviar_correo p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+.contenedor_barras .menu-awards-tag{float:left;margin-top:0px;}
+.content-awards .awards-top{padding:35px 0px 50px 0px;margin: 0 auto;
+    max-width: 997px;
+    display: flex;}
+.content-awards .awards-top .intro-concurso{    margin-left: 30px;font-family:'Galano Grotesque Bold', Arial, Helvetica;}
+.awards-top .intro-concurso H1 , H2{line-height:26px;}
+
+.contenedor_barras .menu-awards-tag UL LI A{font-size:13px;font-family:'Galano Grotesque Bold', Arial, Helvetica;}
+
+/** Se oculta la cabecera por defecto del tag, y las columnas secundaria y principal **/
+.seccion.generica
+ {
+  display: none;
+}
+
+/** Estilos del tag **/
+@import url(https://fonts.googleapis.com/css?family=montserratbold:400,700);
+.contenedor_barras .menu-awards-tag a,
+.columnas_principal_full_width_tag A{
+	 opacity: 1;
+	transition: opacity .4s ease-in-out;
+	-moz-transition: opacity .4s ease-in-out;
+	-webkit-transition: opacity .4s ease-in-out;
+}
+
+.contenedor_barras .menu-awards-tag a:hover,
+.columnas_principal_full_width_tag A:hover{
+  text-decoration:none;
+  -webkit-transition: ease-in-out 0.2s;
+  -moz-transition: ease-in-out 0.2s;
+  -o-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+
+.contenedor_barras .menu-awards-tag{
+  display:inline-block;
+  width:100%;
+  margin:0 auto 0px;
+  text-align:center;
+  background:#000;
+  border-top:1px solid #464646;
+  border-bottom:0px;
+  margin-top: 0px;
+}
+
+.contenedor_barras .menu-awards-tag UL{list-style: none;margin:0 auto;padding-left: 0px;}
+.contenedor_barras .menu-awards-tag UL LI{display:inline-block;}
+.contenedor_barras .menu-awards-tag UL LI A{
+	font: 13px 'Galano Grotesque Regular', Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  padding:10px 18px;
+  border-right: 1px solid #2c2c2c;display:inline-block;
+}
+
+.contenedor_barras .menu-awards-tag UL LI:last-child A{border-right:0;}
+.contenedor_barras .menu-awards-tag UL LI.active A,
+.contenedor_barras .menu-awards-tag UL LI A:hover{color:#f5a31d;}
+.contenedor_barras .content-awards-tag .grande IMG{width:100% !important;}
+.columnas_principal_full_width_tag{
+  display:inline-block;
+  width:100%;
+  border-bottom:1px solid #eaeaea;
+  padding-top:20px;
+}
+
+.columnas_principal_full_width_tag .dos_bloques{display:inline-block;width:100%;}
+.columnas_principal_full_width_tag .dos_bloques div.item A:hover{opacity:0.8}
+.columnas_principal_full_width_tag .dos_bloques div.item{
+  width:48.95%;
+  float: left;
+  margin-right:20px;
+  padding-bottom:20px;
+  margin-bottom:25px;
+  border-bottom:1px solid #eaeaea;
+  font-family:'montserratbold', Arial, Helvetica, sans-serif;
+  min-height:483px;
+}
+
+.columnas_principal_full_width_tag .dos_bloques:last-child div.item{
+	border-bottom:0;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+
+.columnas_principal_full_width_tag .dos_bloques div:last-child{margin-right:0;}
+.columnas_principal_full_width_tag .dos_bloques img{width:100%;}
+.columnas_principal_full_width_tag .dos_bloques H3{
+  font-family:'montserratbold', Arial, Helvetica, sans-serif;
+  font-weight:700;
+  font-size: 20px;
+  padding:18px 0 10px;
+  letter-spacing:-0.5px;
+}
+
+.content-awards-tag .columnas_principal_full_width_tag .dos_bloques P{
+  font-family:'montserratregular', Arial, Helvetica, sans-serif;
+  font-size:15px;
+  color:#515151;
+  line-height:24px;
+  font-weight:400;
+  letter-spacing:-0.2px;
+}
+
+.posicionador {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.ico_play {
+  width: 81px;
+  height: 81px;
+  background:url(http://los40.com/tag/includes/includes_editor/54/161364/images/icon_play_tag.png) no-repeat 0 0;
+  position: absolute;
+  display: block;
+  left: 50%;
+  margin: -4em 0 0 -4em;
+  top: 50%;
+}
+
+.envoltorio_destacadas_3_col .contenedor_barras .article.foto_destacada .content-awards-tag .grande .foto img{width:100%;}
+
+/** Creditos  **/
+.credits li {
+  display: inline-block;
+  color: #8e8e8e;
+  font-size: 10px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin: 0 3px;
+}
+.credits ul {
+  margin: 0 auto;
+  width: 79%;
+  display: inline-block;
+  text-align: center;
+}
+.credits {
+  margin: 20px 0;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.credits h3 {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #999;
+  border-top: 1px dotted #ddd;
+  padding: 16px;
+}
+
+/*********** nuevos cambios 15/07/2016   **********/
+.apertura_foto .contenedor_barras .content-awards-tag H2,
+.contenedor_barras .content-awards-tag H2{
+	font:30px 'montserratbold', Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:20px 0 8px;
+	}
+.apertura_foto .contenedor_barras .content-awards-tag p,
+.contenedor_barras .content-awards-tag p{
+	font:18px 'montserratregular', Arial, Helvetica, sans-serif;
+	line-height:27px;
+	color:#515151;
+	}
+.columnas_principal_full_width_tag{border-top:1px solid #eaeaea;margin-top:20px;padding-top:30px;}
+.contenedor_barras .menu-awards-tag UL LI:last-child A {
+    border-right:1px solid #2c2c2c;
+	}
+.contenedor_barras .menu-awards-tag UL LI:first-child A{border-left:1px solid #2c2c2c;}
+
+.contenedor_barras .menu-awards-tag{
+ border-bottom:1px solid #464646;border-top:1px solid #464646;}
+.columnas_principal_full_width_tag .dos_bloques{border-bottom:1px solid #eaeaea;margin-bottom:30px;}
+    .columnas_principal_full_width_tag .dos_bloques:last-child{border-bottom:0;margin-bottom:0;padding-bottom:20px;}
+ .columnas_principal_full_width_tag .dos_bloques div.item{
+  min-height:auto;border-bottom:0;margin-bottom:0;}
+
+
+
+.contenedor-patrocinadores{width:100%;display:inline-block;background:#000;text-align:center;border-bottom:1px solid #2c2c2c;}
+/*.contenido_principal {
+    border-top: 0;
+    margin: 0 !important;
+}*/
+
+
+.pn-ProductNav {
+/* Make this scrollable when needed */
+overflow-x: auto;
+/* We don't want vertical scrolling */
+overflow-y: hidden;
+/* Make an auto-hiding scroller for the 3 people using a IE */
+-ms-overflow-style: -ms-autohiding-scrollbar;
+/* For WebKit implementations, provide inertia scrolling */
+-webkit-overflow-scrolling: touch;
+/* We don't want internal inline elements to wrap */
+white-space: nowrap;
+/* Remove the default scrollbar for WebKit implementations */
+&::-webkit-scrollbar {
+display: none;
+}
+}
+.pn-ProductNav::-webkit-scrollbar {
+display: none;
+}
+.pn-ProductNav_Link {
+text-decoration: none;
+color: #888;
+font-size: 1.2em;
+font-family: -apple-system, sans-serif;
+display: -webkit-inline-box;
+display: -ms-inline-flexbox;
+display: inline-flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+min-height: 44px;
+}
+
+
+@media screen and (max-width: 767px){
+.content-awards .awards-top{width:100%;display:inline-block;}
+.left-concurso {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+	margin-bottom:30px;
+  }  
+ .content-awards .awards-top .intro-concurso {
+    margin:0;
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.awards-top .follow-programs {
+    padding-top: 0px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+	position:static;
+}
+.contenedor_barras .menu-awards-tag{
+ border-bottom:1px solid #464646;border-top:1px solid #464646;margin-top: 0px;}
+}

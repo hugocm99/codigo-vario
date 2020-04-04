@@ -1,0 +1,33 @@
+.contenedor_barras .menu-awards-tag{float:left;margin-top:-16px!important;}
+.content-awards .awards-top{padding:35px 0px 50px 0px;margin: 0 auto;
+    max-width: 978px;
+    display: flex;}
+.content-awards .awards-top .intro-concurso{    margin-left: 30px;font-family:'Galano Grotesque Bold', Arial, Helvetica;}
+.awards-top .intro-concurso H1 , H2{line-height:26px;}
+
+.contenedor_barras .menu-awards-tag UL LI A{font-size:13px;font-family:'Galano Grotesque Regular', Arial, Helvetica;}
+
+@media screen and (max-width: 767px){
+.content-awards .awards-top{width:100%;display:inline-block;}
+.left-concurso {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+	margin-bottom:30px;
+  }  
+ .content-awards .awards-top .intro-concurso {
+    margin:0;
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.awards-top .follow-programs {
+    padding-top: 0px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+	position:static;
+}
+}
