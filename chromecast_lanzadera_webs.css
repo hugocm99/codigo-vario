@@ -1,0 +1,23 @@
+﻿.background {
+    /*background: center no-repeat url(background.png);*/
+    background-color: #504F4F;
+}
+
+.logo {
+    background-image: url(https://esc-plus.com/player_2021/css/chromecast/img/3000-1000-max%20%283%29.png);
+    background-size: 500px auto;
+}
+
+.progressBar {
+    background-color: #0192fc;
+}
+
+.splash {
+    background-image: url(https://esc-plus.com/player_2021/css/chromecast/img/Splash-Chromecast-web.png);
+    background-size: contain;
+}
+
+.watermark {
+    background-image: url(https://esc-plus.com/player_2021/css/chromecast/img/Watermark.png);
+    background-size: 57px 57px;
+}

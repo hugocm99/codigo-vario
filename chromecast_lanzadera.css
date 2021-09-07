@@ -1,0 +1,23 @@
+﻿.background {
+    /*background: center no-repeat url(background.png);*/
+    background-color: #504F4F;
+}
+
+.logo {
+    background-image: url(https://live.esc-plus.com/wp-content/uploads/2021/04/logo-escplus-live_white.png);
+    background-size: 500px auto;
+}
+
+.progressBar {
+    background-color: #0192fc;
+}
+
+.splash {
+    background-image: url(https://esc-plus.com/player_2021/css/chromecast/img/Splash-Chromecast.png);
+    background-size: contain;
+}
+
+.watermark {
+    background-image: url(https://esc-plus.com/player_2021/css/chromecast/img/Watermark.png);
+    background-size: 57px 57px;
+}
