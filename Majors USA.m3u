@@ -1,0 +1,35 @@
+#EXTM3U
+#EXTINF:-1,CBS New York (2.1)
+https://v-ny.mybtv.net/live/545/1920x1080.m3u8
+#EXTINF:-1,NBC New York (4.1)
+https://v-ny.mybtv.net/live/548/1920x1080.m3u8
+#EXTINF:-1,FOX New York (5.1)
+https://v-ny.mybtv.net/live/550/1280x720.m3u8
+#EXTINF:-1,ABC New York (7.1)
+https://v-ny.mybtv.net/live/554/1280x720.m3u8
+#EXTINF:-1,The CW / PIX11 New York (11.1)
+https://v-ny.mybtv.net/live/562/1920x1080.m3u8
+#EXTINF:-1,PBS New York (21.1)
+https://v-ny.mybtv.net/live/575/1920x1080.m3u8
+#EXTINF:-1,Univision New York (41.1)
+https://v-ny.mybtv.net/live/643/1280x720.m3u8
+#EXTINF:-1,Azteca New York (42.1)
+https://v-ny.mybtv.net/live/645/1280x720.m3u8
+#EXTINF:-1,Telemundo New York (47.1)
+https://v-ny.mybtv.net/live/659/1920x1080.m3u8
+#EXTINF:-1,CBS Los Angeles (2.1)
+https://v-la.mybtv.net/live/161/1920x1080.m3u8
+#EXTINF:-1,NBC Los Angeles (4.1)
+https://v-la.mybtv.net/live/82/1920x1080.m3u8
+#EXTINF:-1,ABC Los Angeles (7.1)
+https://v-la.mybtv.net/live/88/1280x720.m3u8
+#EXTINF:-1,FOX Los Angeles (11.1)
+https://v-la.mybtv.net/live/166/1280x720.m3u8
+#EXTINF:-1,CBS Philadelphia (3.1)
+https://v-pi.mybtv.net/live/318/1920x1080.m3u8
+#EXTINF:-1,ABC Philadelphia (6.1)
+https://v-pi.mybtv.net/live/333/1280x720.m3u8
+#EXTINF:-1,NBC Philadelphia (10.1)
+https://v-pi.mybtv.net/live/345/1920x1080.m3u8
+#EXTINF:-1,Fox Philadelphia (29.1)
+https://v-pi.mybtv.net/live/369/1280x720.m3u8
