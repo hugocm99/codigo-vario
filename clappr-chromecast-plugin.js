@@ -127,7 +127,6 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var ChromecastPlugin = (function (_UICorePlugin) {
 	  _inherits(ChromecastPlugin, _UICorePlugin);
-	  console.log(this.core);
 	  if (typeof options !== 'undefined' && options !== null && options.hasOwnProperty('property')) {
 		// Accede a las propiedades de 'options' aquí
 		console.log(options.property);
